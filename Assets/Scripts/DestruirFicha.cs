@@ -15,8 +15,12 @@ public class DestruirFicha : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider other)
+     void OnTriggerEnter(Collider col)
     {
-        
+        if (col.gameObject.tag == "Nota")
+        {
+            Destroy(col.gameObject);
+        }
+            
     }
 }
