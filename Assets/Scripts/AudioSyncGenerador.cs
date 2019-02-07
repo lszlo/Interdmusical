@@ -14,7 +14,7 @@ public class AudioSyncGenerador : AudioSyncer
     {
         base.OnBeat();
         GenerarNota();
-        Debug.LogWarning("musica");
+        
 
 
     }
