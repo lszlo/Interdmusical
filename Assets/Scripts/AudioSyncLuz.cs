@@ -23,6 +23,7 @@ public class AudioSyncLuz : AudioSyncer
 
 
     }
+    //hola
     void cambiarLuz()
     {
         GameObject[] luces = GameObject.FindGameObjectsWithTag( "Luz");
