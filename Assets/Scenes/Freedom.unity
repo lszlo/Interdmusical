@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 199996972}
   m_Layer: 0
   m_Name: luz2_arco_peq
-  m_TagString: Untagged
+  m_TagString: Luz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 413228255}
   m_Layer: 0
   m_Name: luz2_arco_grande
-  m_TagString: Untagged
+  m_TagString: Luz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 519858165}
   m_Layer: 0
   m_Name: luz3_arco_peq (1)
-  m_TagString: Untagged
+  m_TagString: Luz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 654357898}
   m_Layer: 0
   m_Name: luz1_arco_grande
-  m_TagString: Untagged
+  m_TagString: Luz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 756500428}
   m_Layer: 0
   m_Name: luz2_arco_peq (1)
-  m_TagString: Untagged
+  m_TagString: Luz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -741,6 +741,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2677148129552254230, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Luz
+      objectReference: {fileID: 0}
+    - target: {fileID: 2404787442926521823, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Luz
+      objectReference: {fileID: 0}
+    - target: {fileID: 8013481763867734730, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Luz
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823378855217064872, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Luz
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209832358116296777, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Luz
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd71c9037e2d861439c780e218f258d9, type: 3}
 --- !u!4 &953064490 stripped
@@ -840,7 +865,7 @@ GameObject:
   - component: {fileID: 982717885}
   m_Layer: 0
   m_Name: luz1_arco_peq
-  m_TagString: Untagged
+  m_TagString: Luz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1034,7 +1059,7 @@ GameObject:
   - component: {fileID: 1751736078}
   m_Layer: 0
   m_Name: luz1_arco_peq (1)
-  m_TagString: Untagged
+  m_TagString: Luz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1113,7 +1138,7 @@ GameObject:
   - component: {fileID: 1789796108}
   m_Layer: 0
   m_Name: luz3_arco_peq
-  m_TagString: Untagged
+  m_TagString: Luz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1225,7 +1250,7 @@ GameObject:
   - component: {fileID: 2120885253}
   m_Layer: 0
   m_Name: luz3_arco_grande
-  m_TagString: Untagged
+  m_TagString: Luz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
