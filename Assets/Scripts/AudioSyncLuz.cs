@@ -5,17 +5,7 @@ using UnityEngine;
 public class AudioSyncLuz : AudioSyncer
 {
     public Color[] colores;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
     public override void OnBeat()
     {
         base.OnBeat();
@@ -27,6 +17,7 @@ public class AudioSyncLuz : AudioSyncer
     void cambiarLuz()
     {
         GameObject[] luces = GameObject.FindGameObjectsWithTag( "Luz");
+        Debug.Log("cambiandoluces");
        
         for (int i = 0; i < luces.Length; i++)
         {

@@ -375,7 +375,7 @@ PrefabInstance:
     - target: {fileID: 272564835684575702, guid: 2bef3b49ea1586647b196cbe172c86bb,
         type: 3}
       propertyPath: m_TagString
-      value: Luz
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3502020849679727537, guid: 2bef3b49ea1586647b196cbe172c86bb,
         type: 3}
@@ -1051,14 +1051,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bias: 1
   timeStep: 1
-  timeToBeat: 4
+  timeToBeat: 1
   restSmoothTime: 2
   colores:
-  - {r: 0.9339623, g: 0.2863564, b: 0.2863564, a: 0}
-  - {r: 0.8867924, g: 0.3668939, b: 0.12130654, a: 0}
-  - {r: 0.9056604, g: 0.6215299, b: 0.10679956, a: 0}
-  - {r: 0.9622642, g: 0.7019612, b: 0.14070843, a: 0}
-  - {r: 0.91294307, g: 0.9245283, b: 0.11774653, a: 0}
+  - {r: 0.9339623, g: 0.2863564, b: 0.2863564, a: 1}
+  - {r: 0.8867924, g: 0.3668939, b: 0.12130654, a: 1}
+  - {r: 0.9056604, g: 0.6215299, b: 0.10679956, a: 1}
+  - {r: 0.9622642, g: 0.7019612, b: 0.14070843, a: 1}
+  - {r: 0.91294307, g: 0.9245283, b: 0.11774653, a: 1}
 --- !u!4 &412247396
 Transform:
   m_ObjectHideFlags: 0
@@ -1735,11 +1735,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 590356707}
     m_Modifications:
-    - target: {fileID: 1262250219289467172, guid: 545cdfc834f239044b330e94d966ad3c,
-        type: 3}
-      propertyPath: m_Name
-      value: Railes
-      objectReference: {fileID: 0}
     - target: {fileID: 1262250219289467179, guid: 545cdfc834f239044b330e94d966ad3c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1809,6 +1804,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.06643837
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262250219289467172, guid: 545cdfc834f239044b330e94d966ad3c,
+        type: 3}
+      propertyPath: m_Name
+      value: Railes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 545cdfc834f239044b330e94d966ad3c, type: 3}
@@ -2511,16 +2511,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 590356707}
     m_Modifications:
-    - target: {fileID: 448817213103340096, guid: 77b0bed131f2ed04193bf2a01cce680e,
-        type: 3}
-      propertyPath: m_Name
-      value: Botones
-      objectReference: {fileID: 0}
-    - target: {fileID: 448817213103340096, guid: 77b0bed131f2ed04193bf2a01cce680e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 448817213103340103, guid: 77b0bed131f2ed04193bf2a01cce680e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2590,6 +2580,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.04377752
+      objectReference: {fileID: 0}
+    - target: {fileID: 448817213103340096, guid: 77b0bed131f2ed04193bf2a01cce680e,
+        type: 3}
+      propertyPath: m_Name
+      value: Botones
+      objectReference: {fileID: 0}
+    - target: {fileID: 448817213103340096, guid: 77b0bed131f2ed04193bf2a01cce680e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77b0bed131f2ed04193bf2a01cce680e, type: 3}
