@@ -296,6 +296,11 @@ PrefabInstance:
       propertyPath: restSmoothTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5047970928922300314, guid: ee9f2dc1b2d57fc46a7a64512e7e8bc2,
+        type: 3}
+      propertyPath: fuerzaNota
+      value: 400
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee9f2dc1b2d57fc46a7a64512e7e8bc2, type: 3}
 --- !u!4 &5195111380927093690 stripped
@@ -380,6 +385,11 @@ PrefabInstance:
         type: 3}
       propertyPath: timeToBeat
       value: 2.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5047970928922300314, guid: ee9f2dc1b2d57fc46a7a64512e7e8bc2,
+        type: 3}
+      propertyPath: fuerzaNota
+      value: 400
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee9f2dc1b2d57fc46a7a64512e7e8bc2, type: 3}
@@ -471,6 +481,11 @@ PrefabInstance:
       propertyPath: timeToBeat
       value: 1.01
       objectReference: {fileID: 0}
+    - target: {fileID: 5047970928922300314, guid: ee9f2dc1b2d57fc46a7a64512e7e8bc2,
+        type: 3}
+      propertyPath: fuerzaNota
+      value: 400
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee9f2dc1b2d57fc46a7a64512e7e8bc2, type: 3}
 --- !u!4 &1014788305641040381 stripped
@@ -560,6 +575,11 @@ PrefabInstance:
         type: 3}
       propertyPath: timeToBeat
       value: 2.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5047970928922300314, guid: ee9f2dc1b2d57fc46a7a64512e7e8bc2,
+        type: 3}
+      propertyPath: fuerzaNota
+      value: 400
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee9f2dc1b2d57fc46a7a64512e7e8bc2, type: 3}
