@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5664540847768609220}
   m_Layer: 0
   m_Name: publicoIzquierda
-  m_TagString: Untagged
+  m_TagString: Publico
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 6730360396947405114}
   m_Layer: 0
   m_Name: publicoDerecha
-  m_TagString: Untagged
+  m_TagString: Publico
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
