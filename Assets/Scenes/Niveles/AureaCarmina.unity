@@ -983,7 +983,7 @@ PrefabInstance:
     - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
         type: 3}
       propertyPath: colores.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
         type: 3}
@@ -2988,32 +2988,77 @@ PrefabInstance:
     - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
         type: 3}
       propertyPath: colores.Array.data[0].r
-      value: 0.28627446
+      value: 0.49733
       objectReference: {fileID: 0}
     - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
         type: 3}
       propertyPath: colores.Array.data[0].g
-      value: 0.71993184
+      value: 0.6746472
       objectReference: {fileID: 0}
     - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
         type: 3}
       propertyPath: colores.Array.data[0].b
-      value: 0.93333334
+      value: 0.8301887
       objectReference: {fileID: 0}
     - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
         type: 3}
       propertyPath: colores.Array.data[1].r
-      value: 0.9150943
+      value: 0.8396226
       objectReference: {fileID: 0}
     - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
         type: 3}
       propertyPath: colores.Array.data[1].g
-      value: 0.48776254
+      value: 0.5584282
       objectReference: {fileID: 0}
     - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
         type: 3}
       propertyPath: colores.Array.data[1].b
-      value: 0.82222027
+      value: 0.7366108
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[2].r
+      value: 0.7960785
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[2].g
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[2].b
+      value: 0.18823531
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[3].r
+      value: 0.8867924
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[3].g
+      value: 0.32486194
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[3].b
+      value: 0.27189392
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[4].r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[4].g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[4].b
+      value: 0.63286155
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85600d5c5b4a4f54c969b74643243b0e, type: 3}
