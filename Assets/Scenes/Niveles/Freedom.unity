@@ -312,7 +312,7 @@ PrefabInstance:
     - target: {fileID: 2286608070134835523, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835523, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
@@ -808,7 +808,7 @@ PrefabInstance:
     - target: {fileID: 9171574236152045750, guid: 85600d5c5b4a4f54c969b74643243b0e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9171574236152045750, guid: 85600d5c5b4a4f54c969b74643243b0e,
         type: 3}
@@ -824,6 +824,56 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[0].r
+      value: 0.83214664
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[0].g
+      value: 0.9136871
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[0].b
+      value: 0.9433962
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[1].r
+      value: 0.4753471
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[1].g
+      value: 0.73088354
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[1].b
+      value: 0.9245283
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[2].r
+      value: 0.36044857
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[2].g
+      value: 0.5388935
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[2].b
+      value: 0.9433962
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85600d5c5b4a4f54c969b74643243b0e, type: 3}
