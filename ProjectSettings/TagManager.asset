@@ -8,6 +8,7 @@ TagManager:
   - Nota
   - Desecho
   - Luz
+  - Publico
   layers:
   - Default
   - TransparentFX
