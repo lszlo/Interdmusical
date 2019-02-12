@@ -337,6 +337,56 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[0].r
+      value: 0.9339623
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[0].g
+      value: 0.72690463
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[0].b
+      value: 0.8963502
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[1].r
+      value: 0.9150943
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[1].g
+      value: 0.3237362
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[1].b
+      value: 0.8011631
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[2].r
+      value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[2].g
+      value: 0.19335175
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: colores.Array.data[2].b
+      value: 0.69796854
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85600d5c5b4a4f54c969b74643243b0e, type: 3}
 --- !u!1 &250419126
@@ -1912,7 +1962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240577325330035214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.446232, y: -8.968212, z: -1.9526939}
+  m_LocalPosition: {x: -5.446232, y: -8.968212, z: -2.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 240577325670022059}
@@ -2186,7 +2236,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240577326773584154}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.946232, y: -0.068211555, z: -2.1526947}
+  m_LocalPosition: {x: -5.7, y: -0.068211555, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 240577325670022059}
