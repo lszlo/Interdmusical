@@ -92,12 +92,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37645b320dcc7bc4fa8fb3ee1474f643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 0
-  timeStep: 0
-  timeToBeat: 0
-  restSmoothTime: 0
-  beatScale: {x: 0, y: 0, z: 0}
-  restScale: {x: 0, y: 0, z: 0}
+  bias: 1
+  timeStep: 1
+  timeToBeat: 1
+  restSmoothTime: 2
+  beatScale: {x: 1, y: 1.25, z: 1}
+  restScale: {x: 1, y: 1, z: 1}
 --- !u!1 &3784344189563745756
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,12 +190,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37645b320dcc7bc4fa8fb3ee1474f643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 0
-  timeStep: 0
-  timeToBeat: 0
-  restSmoothTime: 0
-  beatScale: {x: 0, y: 0, z: 0}
-  restScale: {x: 0, y: 0, z: 0}
+  bias: 0.75
+  timeStep: 1
+  timeToBeat: 1
+  restSmoothTime: 2
+  beatScale: {x: 1, y: 1.25, z: 1}
+  restScale: {x: 1, y: 1, z: 1}
 --- !u!1 &4042916257671344765
 GameObject:
   m_ObjectHideFlags: 0
