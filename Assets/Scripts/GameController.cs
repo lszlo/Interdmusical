@@ -8,11 +8,12 @@ public class GameController : MonoBehaviour {
     public bool pausa = false;
     public int numeroEscena;
     public static int score = 0;
-	// Use this for initialization
-	void Start ()
+    public AudioSource audioSource;
+    // Use this for initialization
+    void Start ()
     {
-		
-	}
+        audioSource.Play();
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -25,10 +26,12 @@ public class GameController : MonoBehaviour {
         if (pausa)
         {
             Time.timeScale = 0f;
+            audioSource.Pause();
         }
         else
         {
             Time.timeScale = 1f;
+            audioSource.Play();
         }
 	}
     //poner el scene manager ese arriba UwU 
