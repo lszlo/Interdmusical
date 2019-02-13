@@ -8,4 +8,22 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Niveles/AureaCarmina.unity
+    guid: 24abde7bfa6a5644abb636925c7b2629
+  - enabled: 1
+    path: Assets/Scenes/Niveles/Freedom.unity
+    guid: 570830af7fb74e24e9b92de33bfeea0e
+  - enabled: 1
+    path: Assets/Scenes/Niveles/MountainKing.unity
+    guid: 33faf0a58d3432544945e0f284857e8f
+  - enabled: 1
+    path: Assets/Scenes/Niveles/TheThrill.unity
+    guid: 95303cc1f6bde97498e42dfada0a1eb5
+  - enabled: 1
+    path: Assets/Scenes/Niveles/TheVoyage.unity
+    guid: be187ed5e67a34a4c80e0ce536e627fd
+  - enabled: 1
+    path: Assets/Scenes/Niveles/Unbound.unity
+    guid: fe181be4f3b8d3b46941373318c67531
   m_configObjects: {}
