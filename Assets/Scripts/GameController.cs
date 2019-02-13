@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour {
     public Animator animacionInterface;
     public bool pausa = false;
     public int numeroEscena;
+    public static int score = 0;
 	// Use this for initialization
 	void Start ()
     {
