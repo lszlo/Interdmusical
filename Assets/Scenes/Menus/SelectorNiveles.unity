@@ -1702,7 +1702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f2e24ec7c2ed241aa2eb4997955725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numPaneles: 7
+  numPaneles: 6
   ancho: 309
   panelActual: 1
   velocidad: 0.1
