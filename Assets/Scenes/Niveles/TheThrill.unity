@@ -743,7 +743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 618205833}
   m_Layer: 0
-  m_Name: Presonaje
+  m_Name: Personaje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -757,7 +757,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618205832}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.4, y: 5.5, z: 32.3}
+  m_LocalPosition: {x: -7.17, y: 6.71, z: 32.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1064547581}
@@ -1278,7 +1278,7 @@ PrefabInstance:
     - target: {fileID: 4649666440541461023, guid: 49b4f7227eb05a6409d6369bc6f19227,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.48
       objectReference: {fileID: 0}
     - target: {fileID: 4649666440541461023, guid: 49b4f7227eb05a6409d6369bc6f19227,
         type: 3}
@@ -1333,17 +1333,17 @@ PrefabInstance:
     - target: {fileID: 4649666440541461023, guid: 49b4f7227eb05a6409d6369bc6f19227,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1652863
+      value: 0.9303413
       objectReference: {fileID: 0}
     - target: {fileID: 4649666440541461023, guid: 49b4f7227eb05a6409d6369bc6f19227,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1652863
+      value: 0.9303413
       objectReference: {fileID: 0}
     - target: {fileID: 4649666440541461023, guid: 49b4f7227eb05a6409d6369bc6f19227,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1652863
+      value: 0.9303413
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49b4f7227eb05a6409d6369bc6f19227, type: 3}
