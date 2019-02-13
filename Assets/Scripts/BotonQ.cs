@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class BotonQ : MonoBehaviour
 {
 	
 	private GameObject nota;
+   
 
     // Update is called once per frame
     void Update()
@@ -19,7 +21,8 @@ public class BotonQ : MonoBehaviour
 
 	void DestruyeNota(){
 		Destroy (nota);
-	}
+        
+    }
 
 	void OnTriggerEnter(Collider col){
 		if(col.CompareTag("Nota")){
@@ -32,4 +35,6 @@ public class BotonQ : MonoBehaviour
 			nota = null;
 		}
 	}
+    
+   
 }
