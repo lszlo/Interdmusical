@@ -17,15 +17,15 @@ public class SelectorNiveles : MonoBehaviour
     void Start()
     {
 		rt = GetComponent<RectTransform> ();
-		posInicial = rt.position;
+		posInicial = rt.localPosition;
 
-		posDestino = rt.position;
+		posDestino = rt.localPosition;
     }
 
     // Update is called once per frame
     void Update()
     {
-		rt.position = Vector3.Lerp (rt.position, posDestino, velocidad);
+		rt.localPosition = Vector3.Lerp (rt.localPosition, posDestino, velocidad);
     }
 
 	public void Siguiente(){
@@ -34,7 +34,7 @@ public class SelectorNiveles : MonoBehaviour
 			posDestino = posInicial;
 
 		} else {
-			posDestino = new Vector3 (posInicial.x - ( (panelActual -1) * ancho) - ancho, rt.position.y, rt.position.z);
+			posDestino = new Vector3 (posInicial.x - ( (panelActual -1) * ancho) - ancho, rt.localPosition.y, rt.localPosition.z);
 			panelActual++;
 		}
 	
@@ -45,10 +45,10 @@ public class SelectorNiveles : MonoBehaviour
 
 		if (panelActual == 1) {
 			panelActual = 7;
-			posDestino = new Vector3 (posInicial.x - ( (panelActual -2) * ancho) - ancho, rt.position.y, rt.position.z);
+			posDestino = new Vector3 (posInicial.x - ( (panelActual -2) * ancho) - ancho, rt.localPosition.y, rt.localPosition.z);
 		} else {
 			panelActual--;
-			posDestino = new Vector3 (posInicial.x - ( (panelActual -2) * ancho) - ancho, rt.position.y, rt.position.z);
+			posDestino = new Vector3 (posInicial.x - ( (panelActual -2) * ancho) - ancho, rt.localPosition.y, rt.localPosition.z);
 
 		}
 
