@@ -1976,6 +1976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240577326876886814}
   - component: {fileID: 240577326876886815}
+  - component: {fileID: 240577326876886810}
   m_Layer: 0
   m_Name: Altavoces_Unbound
   m_TagString: Untagged
@@ -1983,6 +1984,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &240577326876886810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240577326876886809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37645b320dcc7bc4fa8fb3ee1474f643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bias: 0.25
+  timeStep: 1
+  timeToBeat: 1
+  restSmoothTime: 1
+  beatScale: {x: 5, y: 6.5, z: 1}
+  restScale: {x: 5, y: 5, z: 1}
 --- !u!4 &240577326876886814
 Transform:
   m_ObjectHideFlags: 0
