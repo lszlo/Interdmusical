@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bias: 10
-  timeStep: 0.2
-  timeToBeat: 0.2
+  timeStep: 1
+  timeToBeat: 1
   restSmoothTime: 5
   nota: {fileID: 6925918956396674271, guid: a89e6894dfb8ac5459d2a162c9eae511, type: 3}
   fuerzaNota: 4000
