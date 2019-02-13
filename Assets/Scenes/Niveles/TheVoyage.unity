@@ -1528,31 +1528,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2947550339654013373, guid: bd71c9037e2d861439c780e218f258d9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.8999996
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070905555910687411, guid: bd71c9037e2d861439c780e218f258d9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1651547225694725091, guid: bd71c9037e2d861439c780e218f258d9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3539042787590513639, guid: bd71c9037e2d861439c780e218f258d9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4788915593671334827, guid: bd71c9037e2d861439c780e218f258d9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.2
-      objectReference: {fileID: 0}
     - target: {fileID: 2677148129552254230, guid: bd71c9037e2d861439c780e218f258d9,
         type: 3}
       propertyPath: m_TagString
@@ -1577,6 +1552,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Luz
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539042787590513639, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4788915593671334827, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070905555910687411, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651547225694725091, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2947550339654013373, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.8999996
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd71c9037e2d861439c780e218f258d9, type: 3}
@@ -9091,6 +9091,7 @@ GameObject:
   m_Component:
   - component: {fileID: 240577327422290370}
   - component: {fileID: 240577327422290371}
+  - component: {fileID: 240577327422290374}
   m_Layer: 0
   m_Name: Altavoces
   m_TagString: Untagged
@@ -9098,3 +9099,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &240577327422290374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240577327422290373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37645b320dcc7bc4fa8fb3ee1474f643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bias: 0.25
+  timeStep: 1
+  timeToBeat: 1
+  restSmoothTime: 1
+  beatScale: {x: 2.51808, y: 3.2, z: 2.51808}
+  restScale: {x: 2.51808, y: 2.51808, z: 2.51808}
