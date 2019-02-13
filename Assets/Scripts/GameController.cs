@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
-        audioSource.Play();
+        //audioSource.Play();
     }
 	
 	// Update is called once per frame
@@ -22,6 +22,10 @@ public class GameController : MonoBehaviour {
         {
             pausa = !pausa;
             animacionInterface.SetBool("visible", pausa);
+            if (!pausa)
+            {
+                audioSource.Play();
+            }
         }
         if (pausa)
         {
@@ -31,7 +35,7 @@ public class GameController : MonoBehaviour {
         else
         {
             Time.timeScale = 1f;
-            audioSource.Play();
+           
         }
 	}
     //poner el scene manager ese arriba UwU 
