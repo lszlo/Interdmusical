@@ -7,7 +7,9 @@ public class BotonW : MonoBehaviour
 {
 
     private GameObject nota;
-    
+    int puntuacion;
+    public Text puntuacionText;
+
 
     // Update is called once per frame
     void Update()
@@ -23,6 +25,8 @@ public class BotonW : MonoBehaviour
     private void NewMethod()
     {
         DestruyeNota();
+        GameController.score++;
+        puntuacionText.text = GameController.score.ToString();
     }
 
     void DestruyeNota()
