@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class ControllerMenuPrincipal : MonoBehaviour
+public class ControllerOpcionesMenuPrincipal : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,13 +16,8 @@ public class ControllerMenuPrincipal : MonoBehaviour
         
     }
 
-    public void CargarInicio ()
+    public void Home()
     {
-        SceneManager.LoadScene("SelectorNiveles");
-    }
-
-    public void CargarOpcionesMenuPrincipal()
-    {
-        SceneManager.LoadScene("OpcionesMenuPrincipal");
+        SceneManager.LoadScene("MenuInicial");
     }
 }
