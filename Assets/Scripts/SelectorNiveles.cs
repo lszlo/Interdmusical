@@ -84,4 +84,10 @@ public class SelectorNiveles : MonoBehaviour
 
 		SceneManager.LoadScene("Unbound");
 	}
+
+    public void Home()
+    {
+
+        SceneManager.LoadScene("MenuInicial");
+    }
 }

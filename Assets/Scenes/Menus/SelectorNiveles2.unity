@@ -1703,7 +1703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numPaneles: 6
-  ancho: 309
+  ancho: 802.7
   panelActual: 1
   velocidad: 0.1
 --- !u!114 &358834064
