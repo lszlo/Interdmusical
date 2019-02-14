@@ -13,7 +13,7 @@ public class ControllerMenuPrincipal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+    
     }
 
     public void CargarInicio ()
@@ -24,5 +24,15 @@ public class ControllerMenuPrincipal : MonoBehaviour
     public void CargarOpcionesMenuPrincipal()
     {
         SceneManager.LoadScene("OpcionesMenuPrincipal");
+    }
+
+    public void CargarCreditos()
+    {
+        SceneManager.LoadScene("MenuCreditos");
+    }
+
+    public void CargarSalir(){
+
+            Application.Quit();
     }
 }
