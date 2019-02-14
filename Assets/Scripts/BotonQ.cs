@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 
 public class BotonQ : MonoBehaviour
 {
 	
 	private GameObject nota;
-   
+    int puntuacion;
+    public Text puntuacionText;
+    
+
 
     // Update is called once per frame
     void Update()
@@ -21,7 +26,10 @@ public class BotonQ : MonoBehaviour
 
 	void DestruyeNota(){
 		Destroy (nota);
+        GameController.score++;
+        puntuacionText.text = puntuacion.ToString();
         
+
     }
 
 	void OnTriggerEnter(Collider col){

@@ -3,30 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BotonR : MonoBehaviour
+public class Botones : MonoBehaviour
 {
-
     private GameObject nota;
     int puntuacion;
     public Text puntuacionText;
-
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (nota != null && Input.GetKey(KeyCode.Q))
-        {
-            DestruyeNota();
-        }
+        
     }
-
-
-
-    void DestruyeNota()
+    public void DestruyeNota()
     {
         Destroy(nota);
         GameController.score++;
-        puntuacionText.text = GameController.score.ToString();
+        puntuacionText.text = puntuacion.ToString();
+
 
     }
 

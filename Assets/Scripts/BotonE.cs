@@ -7,7 +7,9 @@ public class BotonE : MonoBehaviour
 {
 
     private GameObject nota;
-   
+    int puntuacion;
+    public Text puntuacionText;
+
 
     // Update is called once per frame
     void Update()
@@ -23,7 +25,9 @@ public class BotonE : MonoBehaviour
     void DestruyeNota()
     {
         Destroy(nota);
-       
+        GameController.score++;
+        puntuacionText.text = GameController.score.ToString();
+
     }
 
     void OnTriggerEnter(Collider col)
