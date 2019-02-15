@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 using UnityEngine.UI;
 
 
@@ -43,6 +44,10 @@ public class BotonQ : MonoBehaviour
 			nota = null;
 		}
 	}
-    
-   
+    void OnMouseDown()
+    {
+        Debug.Log("Destruyenota");
+        DestruyeNota();
+    }
+
 }

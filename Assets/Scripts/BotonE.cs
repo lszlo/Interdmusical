@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
+
+
 
 public class BotonE : MonoBehaviour
 {
@@ -9,6 +12,7 @@ public class BotonE : MonoBehaviour
     private GameObject nota;
     int puntuacion;
     public Text puntuacionText;
+
 
 
     // Update is called once per frame
@@ -26,7 +30,8 @@ public class BotonE : MonoBehaviour
     {
         Destroy(nota);
         GameController.score++;
-        puntuacionText.text = GameController.score.ToString();
+        puntuacionText.text = puntuacion.ToString();
+
 
     }
 
@@ -44,5 +49,11 @@ public class BotonE : MonoBehaviour
         {
             nota = null;
         }
+    }
+
+    void OnMouseDown()
+    {
+        Debug.Log("Destruyenota");
+        DestruyeNota();
     }
 }

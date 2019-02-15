@@ -18,25 +18,6 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            pausa = !pausa;
-            animacionInterface.SetBool("visible", pausa);
-            if (!pausa)
-            {
-                audioSource.Play();
-            }
-        }
-        if (pausa)
-        {
-            Time.timeScale = 0f;
-            audioSource.Pause();
-        }
-        else
-        {
-            Time.timeScale = 1f;
-           
-        }
 	}
     //poner el scene manager ese arriba UwU 
     public void RecargaNivel()
@@ -46,5 +27,21 @@ public class GameController : MonoBehaviour {
     public void salirSelector()
     {
         SceneManager.LoadScene("SelectorNiveles");
+    }
+    public void menuSalir()
+    {
+        pausa = !pausa;
+        animacionInterface.SetBool("visible", pausa);
+
+        if (!pausa)
+        {
+            audioSource.Play();
+            Time.timeScale = 1f;
+        }
+        else
+        {
+            Time.timeScale = 0f;
+            audioSource.Pause();
+        }
     }
 }

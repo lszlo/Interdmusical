@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
+
+
 
 public class BotonW : MonoBehaviour
 {
@@ -11,28 +14,25 @@ public class BotonW : MonoBehaviour
     public Text puntuacionText;
 
 
+
     // Update is called once per frame
     void Update()
     {
-        if (nota != null && Input.GetKey(KeyCode.W))
+        if (nota != null && Input.GetKey(KeyCode.Q))
         {
-            NewMethod();
+            DestruyeNota();
         }
-           
-
     }
 
-    private void NewMethod()
-    {
-        DestruyeNota();
-        GameController.score++;
-        puntuacionText.text = GameController.score.ToString();
-    }
+
 
     void DestruyeNota()
     {
         Destroy(nota);
-        
+        GameController.score++;
+        puntuacionText.text = puntuacion.ToString();
+
+
     }
 
     void OnTriggerEnter(Collider col)
@@ -49,5 +49,11 @@ public class BotonW : MonoBehaviour
         {
             nota = null;
         }
+    }
+
+    void OnMouseDown()
+    {
+        Debug.Log("Destruyenota");
+        DestruyeNota();
     }
 }
