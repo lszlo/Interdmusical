@@ -43,4 +43,8 @@ public class GameController : MonoBehaviour {
     {
         SceneManager.LoadScene(numeroEscena);
     }
+    public void salirSelector()
+    {
+        SceneManager.LoadScene("SelectorNiveles");
+    }
 }
