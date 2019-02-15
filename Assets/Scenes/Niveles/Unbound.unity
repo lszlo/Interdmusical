@@ -2127,6 +2127,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameController
       objectReference: {fileID: 0}
+    - target: {fileID: 3511473626937368345, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: puntuacionText
+      value: 
+      objectReference: {fileID: 1776569326}
     - target: {fileID: 1332130253198525143, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2185,7 +2190,7 @@ PrefabInstance:
     - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: numeroEscena
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
@@ -2414,6 +2419,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1776569326 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7585662800724325373, guid: 20a0ece1e9445864ca063ab996d951c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1590051035}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1928567133
 GameObject:
   m_ObjectHideFlags: 0
@@ -3273,6 +3290,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 99df14d5b00795c4eb6f426ea63af50b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed302ee1732977b41a3716d28d11e136, type: 3}
 --- !u!82 &2286608070182251204 stripped

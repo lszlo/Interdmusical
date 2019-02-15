@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/Scenes/Menus/MenuInicial.unity
+    guid: ffd2649411d251043bd391d2bfed4c98
+  - enabled: 1
+    path: Assets/Scenes/Menus/OpcionesMenuPrincipal.unity
+    guid: dce95366c177de24099eb64dc9b27962
+  - enabled: 1
+    path: Assets/Scenes/Menus/SelectorNiveles.unity
+    guid: 44992f271101ccf488aa89d06c4df0c8
+  - enabled: 1
+    path: Assets/Scenes/Menus/MenuCreditos.unity
+    guid: 37716415530e24db885149bacc950305
+  - enabled: 1
     path: Assets/Scenes/Niveles/AureaCarmina.unity
     guid: 24abde7bfa6a5644abb636925c7b2629
   - enabled: 1
@@ -26,16 +38,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Niveles/Unbound.unity
     guid: fe181be4f3b8d3b46941373318c67531
-  - enabled: 1
-    path: Assets/Scenes/Menus/MenuInicial.unity
-    guid: ffd2649411d251043bd391d2bfed4c98
-  - enabled: 1
-    path: Assets/Scenes/Menus/SelectorNiveles.unity
-    guid: 44992f271101ccf488aa89d06c4df0c8
-  - enabled: 1
-    path: Assets/Scenes/Menus/OpcionesMenuPrincipal.unity
-    guid: dce95366c177de24099eb64dc9b27962
-  - enabled: 1
-    path: Assets/Scenes/Menus/MenuCreditos.unity
-    guid: 37716415530e24db885149bacc950305
   m_configObjects: {}
