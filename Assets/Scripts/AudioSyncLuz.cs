@@ -17,7 +17,7 @@ public class AudioSyncLuz : AudioSyncer
     void cambiarLuz()
     {
         GameObject[] luces = GameObject.FindGameObjectsWithTag( "Luz");
-        Debug.Log("cambiandoluces");
+       // Debug.Log("cambiandoluces");
        
         for (int i = 0; i < luces.Length; i++)
         {
