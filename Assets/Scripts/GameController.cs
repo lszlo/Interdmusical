@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour {
     void Start ()
     {
         //audioSource.Play();
+      
     }
 	
 	// Update is called once per frame
@@ -31,17 +32,19 @@ public class GameController : MonoBehaviour {
     public void menuSalir()
     {
         pausa = !pausa;
-        animacionInterface.SetBool("visible", pausa);
+       // animacionInterface.SetBool("visible", pausa);
 
         if (!pausa)
         {
-            audioSource.Play();
             Time.timeScale = 1f;
+            audioSource.Play();
+           
         }
         else
         {
-            Time.timeScale = 0f;
             audioSource.Pause();
+            Time.timeScale = 0f;
+           
         }
     }
 }
