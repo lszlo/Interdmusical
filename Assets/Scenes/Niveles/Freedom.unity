@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -269,10 +269,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 28c1759238b2271479b27f654f8b2466, type: 3}
+    - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
       propertyPath: m_Name
-      value: Audio Source
+      value: AudioSource
       objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835523, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
@@ -329,11 +339,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 28c1759238b2271479b27f654f8b2466, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed302ee1732977b41a3716d28d11e136, type: 3}
 --- !u!1 &199996970
@@ -531,6 +536,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235244913159638313, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235244913159638313, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 912469615}
+    - target: {fileID: 7235244913159638313, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: menuSalir
+      objectReference: {fileID: 0}
+    - target: {fileID: 7235244913159638313, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7553119174326468421, guid: 20a0ece1e9445864ca063ab996d951c5,
         type: 3}
@@ -1120,16 +1145,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1332130253198525141, guid: 8269b06947ca3274b9f690993c7de60a,
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
-      propertyPath: m_Name
-      value: GameController
+      propertyPath: numeroEscena
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 514513224}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: animacionInterface
+      value: 
+      objectReference: {fileID: 1798965793}
     - target: {fileID: 3511473626937368345, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: puntuacionText
       value: 
       objectReference: {fileID: 344329011}
+    - target: {fileID: 1332130253198525141, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: m_Name
+      value: GameController
+      objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525143, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1185,21 +1225,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: numeroEscena
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 514513224}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: animacionInterface
-      value: 
-      objectReference: {fileID: 1798965793}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8269b06947ca3274b9f690993c7de60a, type: 3}
 --- !u!114 &912469615 stripped

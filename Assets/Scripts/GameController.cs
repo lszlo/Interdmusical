@@ -15,6 +15,10 @@ public class GameController : MonoBehaviour {
     {
         animacionInterface = GameObject.Find("UI").GetComponent<Animator>();
         audioSource = GameObject.Find("AudioSource").GetComponent<AudioSource>();
+        if(audioSource == null)
+        {
+            Debug.LogError("No se encuentra AudioSource");
+        }
     }
     // Use this for initialization
     void Start ()
@@ -27,7 +31,7 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        Debug.Log(Time.timeScale);
+        //Debug.Log(Time.timeScale);
 	}
     //poner el scene manager ese arriba UwU 
     public void RecargaNivel()
@@ -41,7 +45,7 @@ public class GameController : MonoBehaviour {
     public void menuSalir()
     {
         pausa = !pausa;
-        Debug.Log("Valor pausa:"+pausa);
+       // Debug.Log("Valor pausa:"+pausa);
         if(animacionInterface != null)
         {
 
@@ -49,18 +53,18 @@ public class GameController : MonoBehaviour {
         }
         else
         {
-            Debug.LogError("No se encotró el animator");
+           // Debug.LogError("No se encotró el animator");
         }
         
 
         if (!pausa)
         {
-            Debug.Log("Saliendo Pausa");
+            //Debug.Log("Saliendo Pausa");
             Time.timeScale = 1f;
             audioSource.UnPause();
            
         }else{
-            Debug.Log("Pausa");
+            //Debug.Log("Pausa");
             audioSource.Pause();
             Time.timeScale = 0f;
            
