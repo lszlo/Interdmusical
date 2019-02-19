@@ -85,6 +85,10 @@ public class SelectorNiveles : MonoBehaviour
 		SceneManager.LoadScene("TheVoyage");
 	}
 
+	public void cargarRandomLevel () {
+
+		SceneManager.LoadScene("NivelRandom");
+	}
 	public void cargarUnbound () {
 
 		SceneManager.LoadScene("Unbound");
