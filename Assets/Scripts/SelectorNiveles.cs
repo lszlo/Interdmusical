@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class SelectorNiveles : MonoBehaviour
 {
+	
+
 	public int numPaneles = 7;
 	RectTransform rt;
 	public float ancho;
@@ -20,6 +22,8 @@ public class SelectorNiveles : MonoBehaviour
 		posInicial = rt.localPosition;
 
 		posDestino = rt.localPosition;
+
+		
     }
 
     // Update is called once per frame
@@ -58,6 +62,7 @@ public class SelectorNiveles : MonoBehaviour
 	public void cargarDisco () {
 
 		SceneManager.LoadScene("AureaCarmina");
+		
 	}
 
 	public void cargarFreedom () {
@@ -80,6 +85,10 @@ public class SelectorNiveles : MonoBehaviour
 		SceneManager.LoadScene("TheVoyage");
 	}
 
+	public void cargarRandomLevel () {
+
+		SceneManager.LoadScene("NivelRandom");
+	}
 	public void cargarUnbound () {
 
 		SceneManager.LoadScene("Unbound");
