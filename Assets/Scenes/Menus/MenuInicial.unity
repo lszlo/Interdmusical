@@ -1176,10 +1176,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45043d381df7d2f41b333e6b1d9934e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 0
-  timeStep: 0
-  timeToBeat: 0
-  restSmoothTime: 0
+  bias: 1
+  timeStep: -0.2
+  timeToBeat: 0.2
+  restSmoothTime: 0.2
   colores:
   - {r: 1, g: 0.07075471, b: 0.07075471, a: 1}
   - {r: 1, g: 0.042452812, b: 0.79189175, a: 1}

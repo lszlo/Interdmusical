@@ -53,8 +53,12 @@ public class BotonR : MonoBehaviour
 
     void OnMouseDown()
     {
-        Debug.Log("Destruyenota");
-        DestruyeNota();
+        Handheld.Vibrate();
+        if (nota != null)
+        {
+            Debug.Log("Destruyenota");
+            DestruyeNota();
+        }
     }
     
 }
