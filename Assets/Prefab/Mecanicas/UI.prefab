@@ -227,8 +227,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 47a943a8eca6fc549a0ec3940ce4503f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1009,17 +1009,17 @@ PrefabInstance:
     - target: {fileID: 224260760832479528, guid: 6fdc2e3015d275348932e01e5d3cc431,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 224260760832479528, guid: 6fdc2e3015d275348932e01e5d3cc431,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 384
+      value: 592
       objectReference: {fileID: 0}
     - target: {fileID: 224260760832479528, guid: 6fdc2e3015d275348932e01e5d3cc431,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 388.3
+      value: 613.1
       objectReference: {fileID: 0}
     - target: {fileID: 224260760832479528, guid: 6fdc2e3015d275348932e01e5d3cc431,
         type: 3}
@@ -1082,6 +1082,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_MaxSize
       value: 78
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814728924986518668, guid: 6fdc2e3015d275348932e01e5d3cc431,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6437393949673086202, guid: 6fdc2e3015d275348932e01e5d3cc431,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270210452718994696, guid: 6fdc2e3015d275348932e01e5d3cc431,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fdc2e3015d275348932e01e5d3cc431, type: 3}
