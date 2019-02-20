@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
     Animator animacionInterface;
-    AudioSource audioSource;
+    public AudioSource audioSource;
     public bool pausa = false;
     public int numeroEscena;
     public static int score;
