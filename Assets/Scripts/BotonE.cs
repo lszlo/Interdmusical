@@ -11,10 +11,15 @@ public class BotonE : MonoBehaviour
 
     private GameObject nota;
     int puntuacion;
+    Animator animacionBoton;
     public Text puntuacionText;
 
 
-
+    private void Start()
+    {
+        animacionBoton.GetComponent<Animator>();
+        animacionBoton.SetBool("pulsado", false);
+    }
     // Update is called once per frame
     void Update()
     {
@@ -54,6 +59,7 @@ public class BotonE : MonoBehaviour
     void OnMouseDown()
     {
         Handheld.Vibrate();
+        animacionBoton.SetBool("pulsado", true);
         if (nota != null)
         {
            
