@@ -1138,6 +1138,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 01adb7332626647438a3fbc974d576d4, type: 3}
+    - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 73f68adc27c2c434bbdad975a0519ca7,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 8756097520554546813, guid: ed302ee1732977b41a3716d28d11e136, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ed302ee1732977b41a3716d28d11e136, type: 3}
@@ -1171,9 +1182,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bias: 0
-  timeStep: 0.1
-  timeToBeat: 0.1
-  restSmoothTime: 0.1
+  timeStep: 0
+  timeToBeat: 0
+  restSmoothTime: 0
   colores:
   - {r: 1, g: 0.07075471, b: 0.07075471, a: 1}
   - {r: 1, g: 0.042452812, b: 0.79189175, a: 1}
@@ -2153,7 +2164,7 @@ GameObject:
   - component: {fileID: 1786396391}
   m_Layer: 5
   m_Name: Barra Luz L
-  m_TagString: Untagged
+  m_TagString: Luz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2430,7 +2441,7 @@ GameObject:
   - component: {fileID: 2074155891}
   m_Layer: 5
   m_Name: Barra Luz L (1)
-  m_TagString: Untagged
+  m_TagString: Luz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
