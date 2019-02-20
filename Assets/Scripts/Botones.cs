@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Botones : MonoBehaviour
 {
     private GameObject nota;
+   
     int puntuacion;
     public Text puntuacionText;
     // Start is called before the first frame update
