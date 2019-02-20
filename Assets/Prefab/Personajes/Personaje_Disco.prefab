@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 3420466413011248907}
   - component: {fileID: 3420466413011248908}
   m_Layer: 0
-  m_Name: Brazo_Disco
+  m_Name: Brazo_DiscoIzquierdo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,8 +59,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0.8725977, w: -0.4884397}
   m_LocalPosition: {x: -0.25901502, y: 0.33220008, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3420466414979862273}
+  m_Children: []
   m_Father: {fileID: 3420466413220144657}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -211.1}
@@ -243,7 +242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3420466413211887362}
   m_Layer: 0
-  m_Name: bone_1
+  m_Name: bone_1izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -256,14 +255,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3420466413211887363}
-  m_LocalRotation: {x: -0.7348855, y: -0.6781912, z: -0, w: 0}
-  m_LocalPosition: {x: -0.1857714, y: 0.62869924, z: 0}
+  m_LocalRotation: {x: -0.16275719, y: -0.98666614, z: -0, w: 0}
+  m_LocalPosition: {x: 0.576609, y: 0.18243319, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3420466414787475981}
-  m_Father: {fileID: 3420466413221238312}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 274.595}
+  m_Father: {fileID: 3420466413216387678}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 198.73401}
 --- !u!1 &3420466413216387679
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,14 +286,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3420466413216387679}
-  m_LocalRotation: {x: 0, y: 0, z: 0.18685587, w: 0.98238736}
+  m_LocalRotation: {x: -0, y: -0, z: 0.13223772, w: 0.99121803}
   m_LocalPosition: {x: 0.6528414, y: -0.0000000130452715, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3420466412953456694}
+  - {fileID: 3420466414979862273}
+  - {fileID: 3420466413211887362}
   m_Father: {fileID: 3420466413857386713}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 15.198001}
 --- !u!1 &3420466413220144658
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +340,7 @@ GameObject:
   - component: {fileID: 3420466413221238326}
   - component: {fileID: 3420466413221238327}
   m_Layer: 0
-  m_Name: Brazo_Disco (1)
+  m_Name: zo_DiscoDerecho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -355,8 +356,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0.8725977, w: -0.4884397}
   m_LocalPosition: {x: -0.1175074, y: 0.6540671, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 3420466413211887362}
+  m_Children: []
   m_Father: {fileID: 3420466413220144657}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -211.1}
@@ -450,14 +450,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3420466413857386714}
-  m_LocalRotation: {x: 0, y: 0, z: 0.59982747, w: 0.80012935}
+  m_LocalRotation: {x: -0, y: -0, z: 0.64388925, w: 0.7651187}
   m_LocalPosition: {x: -0.06864971, y: -1.165285, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3420466413216387678}
   m_Father: {fileID: 3420466413134561469}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 80.165}
 --- !u!1 &3420466414149541045
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,7 +519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3420466414787475981}
   m_Layer: 0
-  m_Name: bone_2
+  m_Name: bone_2izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -549,7 +549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3420466414908694448}
   m_Layer: 0
-  m_Name: bone_2
+  m_Name: bone_2der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -562,13 +562,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3420466414908694449}
-  m_LocalRotation: {x: -0, y: -0, z: -0.6270785, w: 0.7789561}
+  m_LocalRotation: {x: -0, y: -0, z: -0.28575605, w: 0.9583024}
   m_LocalPosition: {x: 0.50876534, y: -0.0000000016196668, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3420466414979862273}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -77.670006}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -33.208}
 --- !u!1 &3420466414979862274
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,7 +579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3420466414979862273}
   m_Layer: 0
-  m_Name: bone_1
+  m_Name: bone_1der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -592,11 +592,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3420466414979862274}
-  m_LocalRotation: {x: -0.6931896, y: -0.72075534, z: -0, w: 0}
-  m_LocalPosition: {x: -0.17279345, y: 0.57009476, z: 0}
+  m_LocalRotation: {x: 0.089185715, y: -0.9960151, z: -0, w: 0}
+  m_LocalPosition: {x: 0.4875077, y: -0.10081315, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3420466414908694448}
-  m_Father: {fileID: 3420466413011248909}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 267.766}
+  m_Father: {fileID: 3420466413216387678}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 180, y: -0.000015258789, z: 169.766}
