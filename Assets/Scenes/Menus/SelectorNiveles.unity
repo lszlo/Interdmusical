@@ -2180,6 +2180,11 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4933662842400332802, guid: 062d8bb0a87a95047b5c4dc75a9344a4,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 7534
+      objectReference: {fileID: 0}
     - target: {fileID: 4933662842502219752, guid: 062d8bb0a87a95047b5c4dc75a9344a4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2306,6 +2311,12 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 124.1
       objectReference: {fileID: 0}
+    - target: {fileID: 4933662841981657859, guid: 062d8bb0a87a95047b5c4dc75a9344a4,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: eef66755f4dbfd147b2a9b3c8b30f7ea,
+        type: 3}
     - target: {fileID: 4933662842426334367, guid: 062d8bb0a87a95047b5c4dc75a9344a4,
         type: 3}
       propertyPath: m_Sprite
