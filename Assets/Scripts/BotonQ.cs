@@ -16,7 +16,7 @@ public class BotonQ : MonoBehaviour
     private void Start()
     {
         animacionBoton.GetComponent<Animator>();
-        animacionBoton.SetBool("pulsado", false);
+        
     }
 
     // Update is called once per frame
@@ -51,7 +51,7 @@ public class BotonQ : MonoBehaviour
     void OnMouseDown()
     {
         Handheld.Vibrate();
-        animacionBoton.SetBool("pulsado", true);
+        animacionBoton.SetTrigger("pulsado");
         if (nota != null )
         {
             Debug.Log("Destruyenota");
@@ -60,5 +60,6 @@ public class BotonQ : MonoBehaviour
         
        
     }
+
 
 }

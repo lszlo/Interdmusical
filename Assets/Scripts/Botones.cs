@@ -6,21 +6,30 @@ using UnityEngine.UI;
 public class Botones : MonoBehaviour
 {
     private GameObject nota;
-   
     int puntuacion;
     public Text puntuacionText;
-    // Start is called before the first frame update
-    void Start()
+    Animator animacionBoton;
+    public string tecla;
+    private void Start()
     {
-        
+        animacionBoton = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (nota != null && Input.GetKey(tecla))
+        {
+            animacionBoton.SetTrigger("pulsado");
+            DestruyeNota();
+            
+        }
     }
-    public void DestruyeNota()
+
+
+
+    void DestruyeNota()
     {
         Destroy(nota);
         GameController.score++;
@@ -43,5 +52,19 @@ public class Botones : MonoBehaviour
         {
             nota = null;
         }
+    }
+    void OnMouseDown()
+    {
+        Debug.Log("pulsado"+ transform.name);
+        Handheld.Vibrate();
+        animacionBoton.SetTrigger("pulsado");
+        
+        if (nota != null)
+        {
+            Debug.Log("Destruyenota");
+            DestruyeNota();
+        }
+
+
     }
 }
