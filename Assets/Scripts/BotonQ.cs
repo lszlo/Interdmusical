@@ -13,6 +13,7 @@ public class BotonQ : MonoBehaviour
     int puntuacion;
     public Text puntuacionText;
     Animator animacionBoton;
+    public string tecla;
     private void Start()
     {
         animacionBoton.GetComponent<Animator>();
@@ -22,7 +23,7 @@ public class BotonQ : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if (nota != null && Input.GetKey (KeyCode.Q)) {
+		if (nota != null && Input.GetKey (tecla)) {
 			DestruyeNota ();
 		}
     }
