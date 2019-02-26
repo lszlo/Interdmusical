@@ -9,16 +9,16 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Menus/MenuInicial.unity
+    path: Assets/Scenes/Menus/1.Escenas/MenuInicial.unity
     guid: ffd2649411d251043bd391d2bfed4c98
   - enabled: 1
-    path: Assets/Scenes/Menus/OpcionesMenuPrincipal.unity
+    path: Assets/Scenes/Menus/2.Basura escenas/OpcionesMenuPrincipal.unity
     guid: dce95366c177de24099eb64dc9b27962
   - enabled: 1
-    path: Assets/Scenes/Menus/SelectorNiveles.unity
+    path: Assets/Scenes/Menus/1.Escenas/SelectorNiveles.unity
     guid: 44992f271101ccf488aa89d06c4df0c8
   - enabled: 1
-    path: Assets/Scenes/Menus/MenuCreditos.unity
+    path: Assets/Scenes/Menus/1.Escenas/MenuCreditos.unity
     guid: 37716415530e24db885149bacc950305
   - enabled: 1
     path: Assets/Scenes/Niveles/AureaCarmina.unity
