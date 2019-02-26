@@ -868,6 +868,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioSource
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
       propertyPath: m_PlayOnAwake
@@ -888,16 +898,6 @@ PrefabInstance:
         type: 3}
       propertyPath: Mute
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
-        type: 3}
-      propertyPath: m_Name
-      value: AudioSource
-      objectReference: {fileID: 0}
-    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835523, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
@@ -4262,6 +4262,11 @@ PrefabInstance:
       propertyPath: tecla
       value: q
       objectReference: {fileID: 0}
+    - target: {fileID: 5195111382282764786, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: df28e7b73e2f4e04d99630296655c75e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 356ecaa3a6a008b4588e1f2296c41dd2, type: 3}
 --- !u!1 &1579560168
@@ -5378,46 +5383,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: animacionInterface
-      value: 
-      objectReference: {fileID: 1803493685}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 1775914431}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: numeroEscena
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: pausa
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: animacionInterface
-      value: 
-      objectReference: {fileID: 1803493685}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 1775914431}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: numeroEscena
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: pausa
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525141, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: m_Name
@@ -5427,6 +5392,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: animacionInterface
+      value: 
+      objectReference: {fileID: 1803493685}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1775914431}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: numeroEscena
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: pausa
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: animacionInterface
+      value: 
+      objectReference: {fileID: 1803493685}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1775914431}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: numeroEscena
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: pausa
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525143, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
