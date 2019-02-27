@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Botones : MonoBehaviour
 {
     private GameObject nota;
-    int puntuacion;
+    static int puntuacion;
     public Text puntuacionText;
     Animator animacionBoton;
     public string tecla;
@@ -32,7 +32,7 @@ public class Botones : MonoBehaviour
     void DestruyeNota()
     {
         Destroy(nota);
-        GameController.score++;
+         puntuacion++;
         puntuacionText.text = puntuacion.ToString();
 
 
