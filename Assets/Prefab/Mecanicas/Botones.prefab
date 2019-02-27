@@ -106,6 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puntuacionText: {fileID: 0}
+  streakText: {fileID: 0}
   tecla: R
 --- !u!1 &448817213103340096
 GameObject:
@@ -247,6 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puntuacionText: {fileID: 0}
+  streakText: {fileID: 0}
   tecla: W
 --- !u!1 &448817214521227142
 GameObject:
@@ -354,6 +356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puntuacionText: {fileID: 0}
+  streakText: {fileID: 0}
   tecla: E
 --- !u!1 &448817214773161893
 GameObject:
@@ -461,4 +464,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puntuacionText: {fileID: 0}
+  streakText: {fileID: 0}
   tecla: Q
