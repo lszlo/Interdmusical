@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -227,46 +227,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.14
       objectReference: {fileID: 0}
-    - target: {fileID: 5757271939661410652, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: streakText
-      value: 
-      objectReference: {fileID: 344329012}
-    - target: {fileID: 5757271939661410652, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: puntuacionText
-      value: 
-      objectReference: {fileID: 344329011}
-    - target: {fileID: 5570071603217847161, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: puntuacionText
-      value: 
-      objectReference: {fileID: 344329011}
-    - target: {fileID: 5570071603217847161, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: streakText
-      value: 
-      objectReference: {fileID: 344329012}
-    - target: {fileID: 4246533683442646802, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: streakText
-      value: 
-      objectReference: {fileID: 344329012}
-    - target: {fileID: 4246533683442646802, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: puntuacionText
-      value: 
-      objectReference: {fileID: 344329011}
-    - target: {fileID: 4689262993846039991, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: streakText
-      value: 
-      objectReference: {fileID: 344329012}
-    - target: {fileID: 4689262993846039991, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: puntuacionText
-      value: 
-      objectReference: {fileID: 344329011}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 356ecaa3a6a008b4588e1f2296c41dd2, type: 3}
 --- !u!1 &81304837
@@ -309,6 +269,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioSource
+      objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
       propertyPath: m_audioClip
@@ -318,11 +283,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
-        type: 3}
-      propertyPath: m_Name
-      value: AudioSource
       objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835523, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
@@ -661,19 +621,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 20a0ece1e9445864ca063ab996d951c5, type: 3}
 --- !u!114 &344329011 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 915905041930567214, guid: 20a0ece1e9445864ca063ab996d951c5,
-    type: 3}
-  m_PrefabInstance: {fileID: 344329010}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &344329012 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3909998658751996755, guid: 20a0ece1e9445864ca063ab996d951c5,
+  m_CorrespondingSourceObject: {fileID: 7585662800724325373, guid: 20a0ece1e9445864ca063ab996d951c5,
     type: 3}
   m_PrefabInstance: {fileID: 344329010}
   m_PrefabAsset: {fileID: 0}
@@ -1247,24 +1195,39 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: numeroEscena
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 514513224}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: animacionInterface
+      value: 
+      objectReference: {fileID: 1798965793}
     - target: {fileID: 3511473626937368345, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: puntuacionText
       value: 
-      objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+      objectReference: {fileID: 344329011}
+    - target: {fileID: 1332130253198525141, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
-      propertyPath: numeroEscena
-      value: 3
+      propertyPath: m_Name
+      value: GameController
       objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+    - target: {fileID: 1332130253198525143, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.242942
       objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525143, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
+      propertyPath: m_LocalPosition.y
       value: -1.6681588
       objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525143, guid: 8269b06947ca3274b9f690993c7de60a,
@@ -1312,21 +1275,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: numeroEscena
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 514513224}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: animacionInterface
-      value: 
-      objectReference: {fileID: 1798965793}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8269b06947ca3274b9f690993c7de60a, type: 3}
 --- !u!114 &912469615 stripped

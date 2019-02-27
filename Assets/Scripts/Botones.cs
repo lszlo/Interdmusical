@@ -39,9 +39,9 @@ public class Botones : MonoBehaviour
     {
         Destroy(nota);
          puntuacion++;
-         streak++;
+         
         puntuacionText.text = puntuacion.ToString();
-        streakText.text = streak.ToString();
+       
 
     }
 
@@ -77,6 +77,7 @@ public class Botones : MonoBehaviour
             streak = 0;
         }
        
+
 
 
     }
