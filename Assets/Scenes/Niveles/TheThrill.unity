@@ -671,7 +671,7 @@ PrefabInstance:
     - target: {fileID: 7553119174326468421, guid: 20a0ece1e9445864ca063ab996d951c5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RecargaNivel
+      value: RecargaTheThrill
       objectReference: {fileID: 0}
     - target: {fileID: 4911086559937498251, guid: 20a0ece1e9445864ca063ab996d951c5,
         type: 3}

@@ -72,4 +72,40 @@ public class GameController : MonoBehaviour {
 
         SceneManager.LoadScene("Unbound");
     }
+
+    public void RecargaTheThrill()
+    {
+
+        SceneManager.LoadScene("TheThrill");
+    }
+
+    public void RecargaTheVoyage()
+    {
+
+        SceneManager.LoadScene("TheVoyage");
+    }
+
+    public void RecargaAureaCarmina()
+    {
+
+        SceneManager.LoadScene("AureaCarmina");
+    }
+
+    public void RecargaFreedom()
+    {
+
+        SceneManager.LoadScene("Freedom");
+    }
+
+    public void RecargaMountainKing()
+    {
+
+        SceneManager.LoadScene("MountainKing");
+    }
+
+    public void RecargaNivelRandom()
+    {
+
+        SceneManager.LoadScene("NivelRandom");
+    }
 }
