@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class Botones : MonoBehaviour
 {
-    private GameObject nota;
+    public GameObject nota;
     static int puntuacion;
     public Text puntuacionText;
 
 
-    static int streak;
+    public static int streak;
     public Text streakText;
 
 
@@ -25,10 +25,9 @@ public class Botones : MonoBehaviour
     
     void Update()
     {
-        if (nota != null && Input.GetKey(tecla))
+        if (Input.GetKey(tecla))
         {
-            animacionBoton.SetTrigger("pulsado");
-            DestruyeNota();
+            TeclaPulsada();
             
         }
     }
@@ -38,10 +37,11 @@ public class Botones : MonoBehaviour
     void DestruyeNota()
     {
         Destroy(nota);
-         puntuacion++;
-         
+        nota = null;
+        puntuacion++;
+        streak++;
         puntuacionText.text = puntuacion.ToString();
-       
+        streakText.text = streak.ToString();
 
     }
 
@@ -62,23 +62,25 @@ public class Botones : MonoBehaviour
     }
     void OnMouseDown()
     {
-        Debug.Log("pulsado"+ transform.name);
         Handheld.Vibrate();
+        TeclaPulsada();
+    }
+
+    void TeclaPulsada()
+    {
+       // Debug.Log("pulsado" + transform.name);
+       
         animacionBoton.SetTrigger("pulsado");
-        
+
         if (nota != null)
         {
-            Debug.Log("Destruyenota");
+           // Debug.Log("Destruyenota");
             DestruyeNota();
-            streak++;
-           
-        } else
+        }
+        else
         {
             streak = 0;
+            streakText.text = streak.ToString();
         }
-       
-
-
-
     }
 }
