@@ -8,6 +8,12 @@ public class Botones : MonoBehaviour
     private GameObject nota;
     static int puntuacion;
     public Text puntuacionText;
+
+
+    static int streak;
+    public Text streakText;
+
+
     Animator animacionBoton;
     public string tecla;
     private void Start()
@@ -16,7 +22,7 @@ public class Botones : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (nota != null && Input.GetKey(tecla))
@@ -33,8 +39,9 @@ public class Botones : MonoBehaviour
     {
         Destroy(nota);
          puntuacion++;
+         streak++;
         puntuacionText.text = puntuacion.ToString();
-
+        streakText.text = streak.ToString();
 
     }
 
