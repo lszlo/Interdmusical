@@ -142,7 +142,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1396440772}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -236,7 +236,7 @@ PrefabInstance:
     - target: {fileID: 1161520912253328357, guid: a3b7b568c0d187441aca490c8b61b6f7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1161520912253328357, guid: a3b7b568c0d187441aca490c8b61b6f7,
         type: 3}
@@ -303,6 +303,28 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1161520912253328359, guid: a3b7b568c0d187441aca490c8b61b6f7,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4196daa3eaf671045a53b8440e50ecc0,
+        type: 3}
+    - target: {fileID: 1161520912253328356, guid: a3b7b568c0d187441aca490c8b61b6f7,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 454786668}
+    - target: {fileID: 1161520912253328356, guid: a3b7b568c0d187441aca490c8b61b6f7,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CargarSalir
+      objectReference: {fileID: 0}
+    - target: {fileID: 1161520912111188366, guid: a3b7b568c0d187441aca490c8b61b6f7,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ad1ab9c74866a184b818a664bb123a11,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3b7b568c0d187441aca490c8b61b6f7, type: 3}
 --- !u!224 &79215849 stripped
@@ -488,7 +510,7 @@ Transform:
   m_LocalScale: {x: 1.6666665, y: 1.6666665, z: 1.6666665}
   m_Children: []
   m_Father: {fileID: 1396440772}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &254881420
 SpriteRenderer:
@@ -1008,7 +1030,7 @@ PrefabInstance:
     - target: {fileID: 5764267679801246467, guid: 74ed5a497cf81fc4f869021b47a32b68,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -8.4
       objectReference: {fileID: 0}
     - target: {fileID: 5764267679801246467, guid: 74ed5a497cf81fc4f869021b47a32b68,
         type: 3}
@@ -1033,7 +1055,7 @@ PrefabInstance:
     - target: {fileID: 5764267679801246467, guid: 74ed5a497cf81fc4f869021b47a32b68,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5764267679801246467, guid: 74ed5a497cf81fc4f869021b47a32b68,
         type: 3}
@@ -1100,6 +1122,33 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5764267679801246469, guid: 74ed5a497cf81fc4f869021b47a32b68,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4196daa3eaf671045a53b8440e50ecc0,
+        type: 3}
+    - target: {fileID: 5764267679801246469, guid: 74ed5a497cf81fc4f869021b47a32b68,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764267679801246468, guid: 74ed5a497cf81fc4f869021b47a32b68,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 454786668}
+    - target: {fileID: 5764267679801246468, guid: 74ed5a497cf81fc4f869021b47a32b68,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CargarInicio
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764267679986161033, guid: 74ed5a497cf81fc4f869021b47a32b68,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ad1ab9c74866a184b818a664bb123a11,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74ed5a497cf81fc4f869021b47a32b68, type: 3}
 --- !u!224 &865506574 stripped
@@ -1371,7 +1420,7 @@ PrefabInstance:
     - target: {fileID: 7436239067254409371, guid: b89b6eb5415fdcb4684fa70fafe12cce,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7436239067254409371, guid: b89b6eb5415fdcb4684fa70fafe12cce,
         type: 3}
@@ -1438,6 +1487,28 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7436239067254409373, guid: b89b6eb5415fdcb4684fa70fafe12cce,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4196daa3eaf671045a53b8440e50ecc0,
+        type: 3}
+    - target: {fileID: 7436239067254409372, guid: b89b6eb5415fdcb4684fa70fafe12cce,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 454786668}
+    - target: {fileID: 7436239067254409372, guid: b89b6eb5415fdcb4684fa70fafe12cce,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CargarCreditos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436239067203262049, guid: b89b6eb5415fdcb4684fa70fafe12cce,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ad1ab9c74866a184b818a664bb123a11,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b89b6eb5415fdcb4684fa70fafe12cce, type: 3}
 --- !u!224 &1219680137 stripped
@@ -1597,7 +1668,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 24
   m_TargetDisplay: 0
 --- !u!224 &1396440772
 RectTransform:
@@ -1610,11 +1681,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 32816799}
+  - {fileID: 254881419}
   - {fileID: 865506574}
   - {fileID: 1219680137}
   - {fileID: 79215849}
-  - {fileID: 32816799}
-  - {fileID: 254881419}
   - {fileID: 2125713631}
   m_Father: {fileID: 0}
   m_RootOrder: 3
