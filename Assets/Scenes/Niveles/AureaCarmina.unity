@@ -868,16 +868,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
-        type: 3}
-      propertyPath: m_Name
-      value: AudioSource
-      objectReference: {fileID: 0}
-    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
       propertyPath: m_PlayOnAwake
@@ -898,6 +888,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Mute
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioSource
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835523, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
@@ -5383,6 +5383,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: animacionInterface
+      value: 
+      objectReference: {fileID: 1803493685}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1775914431}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: numeroEscena
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: pausa
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: animacionInterface
+      value: 
+      objectReference: {fileID: 1803493685}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1775914431}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: numeroEscena
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: pausa
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525141, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: m_Name
@@ -5392,46 +5432,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: animacionInterface
-      value: 
-      objectReference: {fileID: 1803493685}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 1775914431}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: numeroEscena
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: pausa
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: animacionInterface
-      value: 
-      objectReference: {fileID: 1803493685}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 1775914431}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: numeroEscena
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: pausa
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525143, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
@@ -5522,6 +5522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puntuacionText: {fileID: 0}
+  streakText: {fileID: 0}
   tecla: 
 --- !u!1001 &7585662799539056005
 PrefabInstance:
