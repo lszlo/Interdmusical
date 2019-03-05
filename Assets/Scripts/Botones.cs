@@ -38,7 +38,7 @@ public class Botones : MonoBehaviour
     void DestruyeNota()
     {
 
-        particle.Emit(1);
+       
         Destroy(nota);
         nota = null;
         puntuacion++;
@@ -79,6 +79,7 @@ public class Botones : MonoBehaviour
         {
            // Debug.Log("Destruyenota");
             DestruyeNota();
+            particle.Emit(1);
         }
         else
         {
