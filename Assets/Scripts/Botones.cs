@@ -8,6 +8,7 @@ public class Botones : MonoBehaviour
     public GameObject nota;
     static int puntuacion;
     public Text puntuacionText;
+    public ParticleSystem particle;
 
 
     public static int streak;
@@ -36,6 +37,8 @@ public class Botones : MonoBehaviour
 
     void DestruyeNota()
     {
+
+       
         Destroy(nota);
         nota = null;
         puntuacion++;
@@ -76,6 +79,7 @@ public class Botones : MonoBehaviour
         {
            // Debug.Log("Destruyenota");
             DestruyeNota();
+            particle.Emit(1);
         }
         else
         {
