@@ -7,7 +7,6 @@ public class GameController : MonoBehaviour {
     Animator animacionInterface;
     public AudioSource audioSource;
     public bool pausa = false;
-    public int numeroEscena;
     public static int score;
 
 
@@ -34,10 +33,7 @@ public class GameController : MonoBehaviour {
         //Debug.Log(Time.timeScale);
 	}
     //poner el scene manager ese arriba UwU 
-    public void RecargaNivel()
-    {
-        SceneManager.LoadScene(numeroEscena);
-    }
+   
     public void salirSelector()
     {
         SceneManager.LoadScene("SelectorNiveles");
@@ -69,5 +65,47 @@ public class GameController : MonoBehaviour {
             Time.timeScale = 0f;
            
         }
+    }
+
+    public void RecargaUnbound()
+    {
+
+        SceneManager.LoadScene("Unbound");
+    }
+
+    public void RecargaTheThrill()
+    {
+
+        SceneManager.LoadScene("TheThrill");
+    }
+
+    public void RecargaTheVoyage()
+    {
+
+        SceneManager.LoadScene("TheVoyage");
+    }
+
+    public void RecargaAureaCarmina()
+    {
+
+        SceneManager.LoadScene("AureaCarmina");
+    }
+
+    public void RecargaFreedom()
+    {
+
+        SceneManager.LoadScene("Freedom");
+    }
+
+    public void RecargaMountainKing()
+    {
+
+        SceneManager.LoadScene("MountainKing");
+    }
+
+    public void RecargaNivelRandom()
+    {
+
+        SceneManager.LoadScene("NivelRandom");
     }
 }

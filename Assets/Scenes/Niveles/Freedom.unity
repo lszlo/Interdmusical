@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -227,22 +227,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.14
       objectReference: {fileID: 0}
-    - target: {fileID: 5909192916215395648, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+    - target: {fileID: 4044746401193145981, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
         type: 3}
       propertyPath: streakText
       value: 
       objectReference: {fileID: 344329012}
-    - target: {fileID: 5909192916215395648, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+    - target: {fileID: 4044746401193145981, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
         type: 3}
       propertyPath: puntuacionText
       value: 
       objectReference: {fileID: 344329011}
-    - target: {fileID: 2619420439614657799, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+    - target: {fileID: 5909192916215395648, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
         type: 3}
       propertyPath: streakText
       value: 
       objectReference: {fileID: 344329012}
-    - target: {fileID: 2619420439614657799, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+    - target: {fileID: 5909192916215395648, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
         type: 3}
       propertyPath: puntuacionText
       value: 
@@ -257,12 +257,12 @@ PrefabInstance:
       propertyPath: streakText
       value: 
       objectReference: {fileID: 344329012}
-    - target: {fileID: 4044746401193145981, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+    - target: {fileID: 2619420439614657799, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
         type: 3}
       propertyPath: streakText
       value: 
       objectReference: {fileID: 344329012}
-    - target: {fileID: 4044746401193145981, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+    - target: {fileID: 2619420439614657799, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
         type: 3}
       propertyPath: puntuacionText
       value: 
@@ -309,6 +309,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioSource
+      objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
       propertyPath: m_audioClip
@@ -318,11 +323,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
-        type: 3}
-      propertyPath: m_Name
-      value: AudioSource
       objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835523, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
@@ -577,16 +577,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7585085381891816137, guid: 20a0ece1e9445864ca063ab996d951c5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3206653082814716516, guid: 20a0ece1e9445864ca063ab996d951c5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7235244913159638313, guid: 20a0ece1e9445864ca063ab996d951c5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -615,7 +605,7 @@ PrefabInstance:
     - target: {fileID: 7553119174326468421, guid: 20a0ece1e9445864ca063ab996d951c5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RecargaNivel
+      value: RecargaFreedom
       objectReference: {fileID: 0}
     - target: {fileID: 4911086559937498251, guid: 20a0ece1e9445864ca063ab996d951c5,
         type: 3}
@@ -656,6 +646,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585085381891816137, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3206653082814716516, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20a0ece1e9445864ca063ab996d951c5, type: 3}
@@ -1247,6 +1247,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1332130253198525141, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: m_Name
+      value: GameController
+      objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: numeroEscena
@@ -1266,11 +1271,6 @@ PrefabInstance:
         type: 3}
       propertyPath: puntuacionText
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525141, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: m_Name
-      value: GameController
       objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525143, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
