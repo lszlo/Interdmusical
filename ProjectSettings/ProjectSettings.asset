@@ -708,7 +708,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
-    Collab: 1
+    Collab: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -729,10 +729,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 2
-  cloudProjectId: eb4bf7cf-348d-4d6d-af01-147ba3fce82e
+  cloudProjectId: 4eb07923-bbf3-4da8-9958-3edc85585c1b
   framebufferDepthMemorylessMode: 0
-  projectName: Prototipo InterDmusical 3D
-  organizationId: cooconuts
+  projectName: InteDmusic
+  organizationId: quinnf
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
