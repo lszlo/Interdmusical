@@ -1156,6 +1156,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio Source
+      objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
       propertyPath: m_audioClip
@@ -1172,11 +1177,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 24300002, guid: 73f68adc27c2c434bbdad975a0519ca7,
         type: 2}
-    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
-        type: 3}
-      propertyPath: m_Name
-      value: Audio Source
-      objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835523, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1363,7 +1363,7 @@ PrefabInstance:
     - target: {fileID: 5764267679801246467, guid: df7a85770f8d3c2478216f97c56c65e6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 70.77
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 5764267679801246467, guid: df7a85770f8d3c2478216f97c56c65e6,
         type: 3}
@@ -1667,8 +1667,8 @@ RectTransform:
   - {fileID: 254881419}
   - {fileID: 1063975711}
   - {fileID: 1805915471}
-  - {fileID: 1826733856}
   - {fileID: 2125713631}
+  - {fileID: 1826733856}
   - {fileID: 1411755674}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2332,5 +2332,5 @@ Transform:
   m_Children:
   - {fileID: 441103158}
   m_Father: {fileID: 1396440772}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
