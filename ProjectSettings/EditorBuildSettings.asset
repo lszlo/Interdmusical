@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Menus/1.Escenas/MenuInicial.unity
+    path: 
     guid: 9c32b6b2e424de946a1c468cc9ba16ff
   - enabled: 1
     path: Assets/Scenes/Niveles/AureaCarmina.unity
     guid: 24abde7bfa6a5644abb636925c7b2629
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/570830af7fb74e24e9b92de33bfeea0e
+    path: 
     guid: 570830af7fb74e24e9b92de33bfeea0e
   - enabled: 1
     path: Assets/Scenes/Niveles/MountainKing.unity
@@ -32,4 +32,16 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menus/1.Escenas/SelectorNiveles.unity
+    guid: bbcd24f633689ca4a8c4969c4727601b
+  - enabled: 1
+    path: Assets/Scenes/Menus/1.Escenas/MenuInicial.unity
+    guid: c52c5edad5bf11741a6fe7c84cecde76
+  - enabled: 1
+    path: Assets/Scenes/Menus/1.Escenas/MenuCreditos.unity
+    guid: a65784713f289c640b9ef2027d7459e5
+  - enabled: 1
+    path: Assets/Scenes/Niveles/Freedom.unity
+    guid: eb19426975ade734797d91f14e4164a8
   m_configObjects: {}
