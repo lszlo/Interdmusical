@@ -713,6 +713,16 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5305060142415833212, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1980626849}
+    - target: {fileID: 5305060142415833212, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: salirSelector
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20a0ece1e9445864ca063ab996d951c5, type: 3}
 --- !u!95 &381065488 stripped
@@ -1926,10 +1936,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2677148129552254230, guid: bd71c9037e2d861439c780e218f258d9,
+    - target: {fileID: 2947550339654013373, guid: bd71c9037e2d861439c780e218f258d9,
         type: 3}
-      propertyPath: m_TagString
-      value: Luz
+      propertyPath: m_LocalPosition.z
+      value: -4.14
       objectReference: {fileID: 0}
     - target: {fileID: 2404787442926521823, guid: bd71c9037e2d861439c780e218f258d9,
         type: 3}
@@ -1937,6 +1947,16 @@ PrefabInstance:
       value: Luz
       objectReference: {fileID: 0}
     - target: {fileID: 8013481763867734730, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Luz
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651547225694725091, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677148129552254230, guid: bd71c9037e2d861439c780e218f258d9,
         type: 3}
       propertyPath: m_TagString
       value: Luz
@@ -1950,16 +1970,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Luz
-      objectReference: {fileID: 0}
-    - target: {fileID: 1651547225694725091, guid: bd71c9037e2d861439c780e218f258d9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2947550339654013373, guid: bd71c9037e2d861439c780e218f258d9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd71c9037e2d861439c780e218f258d9, type: 3}

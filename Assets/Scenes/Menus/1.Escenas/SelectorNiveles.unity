@@ -445,7 +445,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 13fedadb19498cd488d5f3956f599611, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f03ad5e838da9bd4b84c9ae779ec30a5, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -808,7 +808,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 2b342db53b964314ba131d0b74f28e74, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9ad367fa7a2cba43b2c83c2ab499805, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2351,7 +2351,7 @@ PrefabInstance:
     - target: {fileID: 4933662842400332802, guid: 062d8bb0a87a95047b5c4dc75a9344a4,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 7534
+      value: 7661
       objectReference: {fileID: 0}
     - target: {fileID: 4933662842502219752, guid: 062d8bb0a87a95047b5c4dc75a9344a4,
         type: 3}
@@ -2908,7 +2908,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9e81179a197a8c447874d903c10b57ba,
+      objectReference: {fileID: 21300000, guid: c2d521aa9c9c6ee4ebfc26953cf7cf4f,
         type: 3}
     - target: {fileID: 4933662842338330348, guid: 062d8bb0a87a95047b5c4dc75a9344a4,
         type: 3}
@@ -2934,13 +2934,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 670c20ea9603d704c9b9924cd86c7eac,
+      objectReference: {fileID: 21300000, guid: 38446ad99e73f154192cc52184a6848c,
         type: 3}
     - target: {fileID: 4933662843703888200, guid: 062d8bb0a87a95047b5c4dc75a9344a4,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ebc9bf4b6d4b4964ca30b0608df149ce,
+      objectReference: {fileID: 21300000, guid: 4dacc89d885f61148898c12514212fc4,
         type: 3}
     - target: {fileID: 4933662843703888200, guid: 062d8bb0a87a95047b5c4dc75a9344a4,
         type: 3}

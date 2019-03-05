@@ -610,6 +610,46 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.14
       objectReference: {fileID: 0}
+    - target: {fileID: 4044746401193145981, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+        type: 3}
+      propertyPath: puntuacionText
+      value: 
+      objectReference: {fileID: 1590051037}
+    - target: {fileID: 4044746401193145981, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+        type: 3}
+      propertyPath: streakText
+      value: 
+      objectReference: {fileID: 1590051038}
+    - target: {fileID: 5909192916215395648, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+        type: 3}
+      propertyPath: puntuacionText
+      value: 
+      objectReference: {fileID: 1590051037}
+    - target: {fileID: 5909192916215395648, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+        type: 3}
+      propertyPath: streakText
+      value: 
+      objectReference: {fileID: 1590051038}
+    - target: {fileID: 5480269980655330431, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+        type: 3}
+      propertyPath: puntuacionText
+      value: 
+      objectReference: {fileID: 1590051037}
+    - target: {fileID: 5480269980655330431, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+        type: 3}
+      propertyPath: streakText
+      value: 
+      objectReference: {fileID: 1590051038}
+    - target: {fileID: 2619420439614657799, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+        type: 3}
+      propertyPath: puntuacionText
+      value: 
+      objectReference: {fileID: 1590051037}
+    - target: {fileID: 2619420439614657799, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
+        type: 3}
+      propertyPath: streakText
+      value: 
+      objectReference: {fileID: 1590051038}
     - target: {fileID: 1014788305006618099, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
         type: 3}
       propertyPath: nota
@@ -674,46 +714,6 @@ PrefabInstance:
       propertyPath: fuerzaNota
       value: 400
       objectReference: {fileID: 0}
-    - target: {fileID: 4044746401193145981, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: puntuacionText
-      value: 
-      objectReference: {fileID: 1590051037}
-    - target: {fileID: 4044746401193145981, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: streakText
-      value: 
-      objectReference: {fileID: 1590051038}
-    - target: {fileID: 5909192916215395648, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: puntuacionText
-      value: 
-      objectReference: {fileID: 1590051037}
-    - target: {fileID: 5909192916215395648, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: streakText
-      value: 
-      objectReference: {fileID: 1590051038}
-    - target: {fileID: 5480269980655330431, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: puntuacionText
-      value: 
-      objectReference: {fileID: 1590051037}
-    - target: {fileID: 5480269980655330431, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: streakText
-      value: 
-      objectReference: {fileID: 1590051038}
-    - target: {fileID: 2619420439614657799, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: puntuacionText
-      value: 
-      objectReference: {fileID: 1590051037}
-    - target: {fileID: 2619420439614657799, guid: 356ecaa3a6a008b4588e1f2296c41dd2,
-        type: 3}
-      propertyPath: streakText
-      value: 
-      objectReference: {fileID: 1590051038}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 356ecaa3a6a008b4588e1f2296c41dd2, type: 3}
 --- !u!1 &485800310
@@ -1932,7 +1932,7 @@ PrefabInstance:
     - target: {fileID: 7553119174326468421, guid: 20a0ece1e9445864ca063ab996d951c5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RecargaNivel
+      value: RecargaUnbound
       objectReference: {fileID: 0}
     - target: {fileID: 4911086559937498251, guid: 20a0ece1e9445864ca063ab996d951c5,
         type: 3}
@@ -1973,6 +1973,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305060142415833212, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1617256249}
+    - target: {fileID: 5305060142415833212, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: salirSelector
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20a0ece1e9445864ca063ab996d951c5, type: 3}
@@ -3484,17 +3494,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2677148129552254230, guid: bd71c9037e2d861439c780e218f258d9,
-        type: 3}
-      propertyPath: m_TagString
-      value: Luz
-      objectReference: {fileID: 0}
     - target: {fileID: 2404787442926521823, guid: bd71c9037e2d861439c780e218f258d9,
         type: 3}
       propertyPath: m_TagString
       value: Luz
       objectReference: {fileID: 0}
     - target: {fileID: 8013481763867734730, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Luz
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677148129552254230, guid: bd71c9037e2d861439c780e218f258d9,
         type: 3}
       propertyPath: m_TagString
       value: Luz
