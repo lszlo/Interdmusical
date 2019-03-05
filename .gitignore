@@ -35,7 +35,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-Assets/Sprites/Selector de niveles/Freedom/fondo_freedom.png.meta
-Assets/Sprites/Selector de niveles/MountaingKing/bicho_noubtain.png.meta
-Assets/Sprites/Selector de niveles/MountaingKing/boton_hard_mountain.png.meta
-*.meta
+
+
