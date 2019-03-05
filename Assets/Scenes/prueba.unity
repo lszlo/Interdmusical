@@ -1405,18 +1405,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 5764267679801246469, guid: df7a85770f8d3c2478216f97c56c65e6,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 4471fe06c3ce0d74f89bd30419d6e2b9,
-        type: 3}
-    - target: {fileID: 5764267679986161033, guid: df7a85770f8d3c2478216f97c56c65e6,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: b5f90b6096c76a04d9d8edaa00614443,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7a85770f8d3c2478216f97c56c65e6, type: 3}
 --- !u!224 &1063975711 stripped
@@ -1998,18 +1986,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7436239067254409373, guid: 873ebe9807f0ca047a6b9b69180f8c61,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 4471fe06c3ce0d74f89bd30419d6e2b9,
-        type: 3}
-    - target: {fileID: 7436239067203262049, guid: 873ebe9807f0ca047a6b9b69180f8c61,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: b5f90b6096c76a04d9d8edaa00614443,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 873ebe9807f0ca047a6b9b69180f8c61, type: 3}
 --- !u!224 &1805915471 stripped
@@ -2135,18 +2111,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1161520912253328359, guid: f64148d764f5abc4b9f2b75909b66df9,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 4471fe06c3ce0d74f89bd30419d6e2b9,
-        type: 3}
-    - target: {fileID: 1161520912111188366, guid: f64148d764f5abc4b9f2b75909b66df9,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: b5f90b6096c76a04d9d8edaa00614443,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f64148d764f5abc4b9f2b75909b66df9, type: 3}
 --- !u!224 &1826733856 stripped
