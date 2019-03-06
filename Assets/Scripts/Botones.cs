@@ -10,6 +10,8 @@ public class Botones : MonoBehaviour
     public Text puntuacionText;
     public ParticleSystem particle;
 
+    static int derrota;
+    Animator animDerrota;
 
     public static int streak;
     public Text streakText;
@@ -17,10 +19,13 @@ public class Botones : MonoBehaviour
 
     Animator animacionBoton;
     public string tecla;
+
     private void Start()
     {
         animacionBoton = GetComponent<Animator>();
+        animDerrota = GameObject.Find("Derrota").GetComponent<Animator>();
         streak = 0;
+        derrota = 0;
     }
 
     
@@ -37,8 +42,7 @@ public class Botones : MonoBehaviour
 
     void DestruyeNota()
     {
-
-       
+        
         Destroy(nota);
         nota = null;
         puntuacion++;
@@ -67,7 +71,9 @@ public class Botones : MonoBehaviour
     {
         Handheld.Vibrate();
         TeclaPulsada();
+        
     }
+
 
     void TeclaPulsada()
     {
@@ -80,11 +86,26 @@ public class Botones : MonoBehaviour
            // Debug.Log("Destruyenota");
             DestruyeNota();
             particle.Emit(1);
+            derrota = 0;
+            
         }
         else
         {
             streak = 0;
+            derrota++;
+            FuncionDerrota();
             streakText.text = streak.ToString();
+        }
+    }
+
+    
+
+    void FuncionDerrota ()
+    {
+        if (derrota >= 6)
+        {
+            Time.timeScale = 0;
+            animDerrota.SetBool("MenuDerrotaVisible", true);
         }
     }
 }

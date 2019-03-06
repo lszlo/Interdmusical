@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 92.11, y: 257.1499}
-  m_SizeDelta: {x: 139.39, y: 81.4}
+  m_AnchoredPosition: {x: 96.009995, y: 261.37006}
+  m_SizeDelta: {x: 139.39, y: 61.965}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7247563869550366383
 CanvasRenderer:
@@ -101,14 +101,14 @@ RectTransform:
   m_GameObject: {fileID: 1552057828955791323}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1844256, y: 1.1844256, z: 1.1844256}
+  m_LocalScale: {x: 1.030526, y: 1.030526, z: 1.030526}
   m_Children: []
   m_Father: {fileID: 7585662799986330801}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73.5, y: 232.3}
+  m_AnchoredPosition: {x: 73.40001, y: 245.70006}
   m_SizeDelta: {x: 77.3, y: 34.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4774541921547154368
@@ -395,7 +395,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 69, y: 273.10004}
+  m_AnchoredPosition: {x: 72.899994, y: 276.5001}
   m_SizeDelta: {x: 77.3, y: 34.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1997085267362618931
@@ -474,7 +474,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 142.5, y: 233.60004}
+  m_AnchoredPosition: {x: 147.5, y: 244.40005}
   m_SizeDelta: {x: 40.2, y: 34.301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5579046284351982436
@@ -836,7 +836,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 144, y: 271.8}
+  m_AnchoredPosition: {x: 147.9, y: 275.2}
   m_SizeDelta: {x: 41.6, y: 34.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3337040041648929903
