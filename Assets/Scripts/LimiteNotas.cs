@@ -24,7 +24,7 @@ public class LimiteNotas : MonoBehaviour
         if (col.gameObject.tag == "Nota")
         {
             Destroy(col.gameObject);
-            GameController.GetComponent<Botones>().SumarDerrota();
+            //GameController.GetComponent<Botones>().SumarDerrota();
             
         }
 
