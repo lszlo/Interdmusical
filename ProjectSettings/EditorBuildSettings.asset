@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/1.Escenas/SelectorNiveles.unity
     guid: 9ec3c837a5343344296b0e894b76884b
+  - enabled: 1
+    path: Assets/Scenes/Menus/1.Escenas/MenuCreditos.unity
+    guid: d82021970ed2d4c4cac381db70780d39
   m_configObjects: {}

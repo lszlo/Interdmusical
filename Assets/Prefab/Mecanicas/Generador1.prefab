@@ -47,5 +47,5 @@ MonoBehaviour:
   timeStep: 1
   timeToBeat: 1
   restSmoothTime: 5
-  nota: {fileID: 6925918956396674271, guid: a89e6894dfb8ac5459d2a162c9eae511, type: 3}
+  nota: {fileID: 3251754306244502110, guid: 5bb1ae8c930aa204199c38394bb4ab56, type: 3}
   fuerzaNota: 4000
