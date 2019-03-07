@@ -10,7 +10,7 @@ public class Botones : MonoBehaviour
     public Text puntuacionText;
     public ParticleSystem particle;
 
-    static int derrota;
+    public static int derrota;
     Animator animDerrota;
 
     public static int streak;
@@ -31,7 +31,7 @@ public class Botones : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKey(tecla))
+        if (Input.GetKeyDown(tecla))
         {
             TeclaPulsada();
             
@@ -92,7 +92,7 @@ public class Botones : MonoBehaviour
         else
         {
             streak = 0;
-            derrota++;
+           
             FuncionDerrota();
             streakText.text = streak.ToString();
         }
@@ -102,10 +102,16 @@ public class Botones : MonoBehaviour
 
     void FuncionDerrota ()
     {
+        derrota++;
         if (derrota >= 6)
         {
             Time.timeScale = 0;
             animDerrota.SetBool("MenuDerrotaVisible", true);
         }
     }
+
+    public void SumarDerrota()
+    {
+        derrota++;
+    } 
 }
