@@ -36,6 +36,12 @@ public class Botones : MonoBehaviour
             TeclaPulsada();
             
         }
+
+        if (derrota >= 6)
+        {
+            Time.timeScale = 0;
+            animDerrota.SetBool("MenuDerrotaVisible", true);
+        }
     }
 
 
@@ -92,23 +98,19 @@ public class Botones : MonoBehaviour
         else
         {
             streak = 0;
-           
-            FuncionDerrota();
+
+            derrota++;
             streakText.text = streak.ToString();
         }
     }
 
     
 
-    void FuncionDerrota ()
-    {
-        derrota++;
-        if (derrota >= 6)
-        {
-            Time.timeScale = 0;
-            animDerrota.SetBool("MenuDerrotaVisible", true);
-        }
-    }
+   // void FuncionDerrota ()
+   // {
+       // derrota++;
+       
+  //  }
 
     public void SumarDerrota()
     {
