@@ -5,15 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menus/1.Escenas/MenuInicial.unity
+    guid: d874ffa92968d824eab3d94f4c3e7d03
   - enabled: 1
     path: Assets/Scenes/Niveles/AureaCarmina.unity
     guid: 24abde7bfa6a5644abb636925c7b2629
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Niveles/MountainKing.unity
     guid: 33faf0a58d3432544945e0f284857e8f
@@ -29,18 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Niveles/NivelRandom.unity
     guid: 80bd7ce1f8923d94abe0ce2df287b621
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Niveles/Freedom.unity
     guid: eb19426975ade734797d91f14e4164a8
@@ -50,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/1.Escenas/MenuCreditos.unity
     guid: d82021970ed2d4c4cac381db70780d39
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
