@@ -421,16 +421,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3539042787590513639, guid: bd71c9037e2d861439c780e218f258d9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -10.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 4788915593671334827, guid: bd71c9037e2d861439c780e218f258d9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -10.62
-      objectReference: {fileID: 0}
     - target: {fileID: 1651547225694725091, guid: bd71c9037e2d861439c780e218f258d9,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -445,6 +435,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -7.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539042787590513639, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4788915593671334827, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.62
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd71c9037e2d861439c780e218f258d9, type: 3}
@@ -596,6 +596,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed302ee1732977b41a3716d28d11e136, type: 3}
+--- !u!82 &652506811 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
+    type: 3}
+  m_PrefabInstance: {fileID: 652506810}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &699782685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -603,31 +609,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3511473626937368345, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: puntuacionText
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525141, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: m_Name
       value: GameController
       objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: numeroEscena
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: vidaText
-      value: 
-      objectReference: {fileID: 50532422}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: puntuacionText
-      value: 
-      objectReference: {fileID: 50532423}
-    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
-        type: 3}
-      propertyPath: streakText
-      value: 
-      objectReference: {fileID: 50532421}
     - target: {fileID: 1332130253198525143, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -683,11 +674,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3511473626937368345, guid: 8269b06947ca3274b9f690993c7de60a,
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: numeroEscena
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: vidaText
+      value: 
+      objectReference: {fileID: 50532422}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: puntuacionText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 50532423}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: streakText
+      value: 
+      objectReference: {fileID: 50532421}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 652506811}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8269b06947ca3274b9f690993c7de60a, type: 3}
 --- !u!1 &700990437
