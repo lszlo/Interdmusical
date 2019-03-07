@@ -21,7 +21,7 @@ public class LimiteNotas : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.tag == "LimiteNotas")
+        if (col.gameObject.tag == "Nota")
         {
             Destroy(col.gameObject);
             GameController.GetComponent<Botones>().SumarDerrota();
