@@ -75,6 +75,7 @@ public class GameController : MonoBehaviour {
     public void ReinicioDerrota()
     {
         derrota = 0;
+        Time.timeScale = 1;
 
     }
 
