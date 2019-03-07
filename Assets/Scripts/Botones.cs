@@ -8,6 +8,7 @@ public class Botones : MonoBehaviour
     public GameObject nota;
     GameObject GameController;
     public ParticleSystem particle;
+  
 
 
 
@@ -34,7 +35,8 @@ public class Botones : MonoBehaviour
     void DestruyeNota()
     {
         
-        Destroy(nota);
+        
+        nota.GetComponent<Animator>().SetTrigger("DestruirNota");
         nota = null;
         GameController.GetComponent<GameController>().SumaPuntos();
     }
