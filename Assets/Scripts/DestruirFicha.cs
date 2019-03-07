@@ -9,7 +9,7 @@ public class DestruirFicha : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        streakText = GameObject.Find("StreakPuntos").GetComponent<Text>() ;
+        streakText = GameObject.Find("StreakPuntos").GetComponent<Text>() ;  
     }
 
     // Update is called once per frame

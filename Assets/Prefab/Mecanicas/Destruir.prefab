@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5572786079289566406}
   - component: {fileID: 5572786079289566407}
-  - component: {fileID: 5572786079289566424}
+  - component: {fileID: 2090032379314938181}
   m_Layer: 0
   m_Name: Destruir
-  m_TagString: Untagged
+  m_TagString: LimiteNotas
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,7 +45,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 19.291595, y: 38.928463, z: 55.257416}
   m_Center: {x: -9.145798, y: 0.9132824, z: 7.442234}
---- !u!114 &5572786079289566424
+--- !u!114 &2090032379314938181
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,6 +54,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5572786079289566425}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a31ca2d436cdbf647909e72960cba6da, type: 3}
+  m_Script: {fileID: 11500000, guid: be484db627ed35c4eb391216d6898074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
