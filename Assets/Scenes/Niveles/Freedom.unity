@@ -1266,6 +1266,11 @@ PrefabInstance:
       propertyPath: colores.Array.data[3].b
       value: 0.6745098
       objectReference: {fileID: 0}
+    - target: {fileID: 9171574236152045745, guid: 85600d5c5b4a4f54c969b74643243b0e,
+        type: 3}
+      propertyPath: bias
+      value: 0.36
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85600d5c5b4a4f54c969b74643243b0e, type: 3}
 --- !u!1 &892034404
