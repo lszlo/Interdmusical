@@ -9,6 +9,7 @@ TagManager:
   - Desecho
   - Luz
   - Publico
+  - LimiteNotas
   layers:
   - Default
   - TransparentFX

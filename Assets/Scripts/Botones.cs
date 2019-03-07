@@ -10,7 +10,7 @@ public class Botones : MonoBehaviour
     public Text puntuacionText;
     public ParticleSystem particle;
 
-    static int derrota;
+    public static int derrota;
     Animator animDerrota;
 
     public static int streak;
@@ -108,4 +108,9 @@ public class Botones : MonoBehaviour
             animDerrota.SetBool("MenuDerrotaVisible", true);
         }
     }
+
+    public void SumarDerrota()
+    {
+        derrota++;
+    } 
 }
