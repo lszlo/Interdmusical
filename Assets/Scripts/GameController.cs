@@ -44,6 +44,7 @@ public class GameController : MonoBehaviour {
         //audioSource.Play();
         
         audioSource.Play();
+        Time.timeScale = 1;
 
         animDerrota = GameObject.Find("Derrota").GetComponent<Animator>();
         streak = 0;
@@ -85,7 +86,7 @@ public class GameController : MonoBehaviour {
     public void ReinicioDerrota()
     {
         derrota = 0;
-        Time.timeScale = 1;
+       
 
     }
 
