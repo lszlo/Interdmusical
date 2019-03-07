@@ -10,15 +10,20 @@ public class GameController : MonoBehaviour {
     public bool pausa = false;
     public static int score;
 
+    
     static int puntuacion;
     public Text puntuacionText;
 
+    public int numeroVida = 3;
+    public int maximoVida = 5;
     public static int vida;
     public Text vidaText;
 
+    public int numeroDerrota = 6; 
     public static int derrota;
     Animator animDerrota;
 
+    public int numeroStreak = 3;
     public static int streak;
     public Text streakText;
 
@@ -43,7 +48,7 @@ public class GameController : MonoBehaviour {
         animDerrota = GameObject.Find("Derrota").GetComponent<Animator>();
         streak = 0;
         derrota = 0;
-        vida = 3;
+        vida = numeroVida;
     }
 	
 	// Update is called once per frame
@@ -52,7 +57,7 @@ public class GameController : MonoBehaviour {
         //Debug.Log(Time.timeScale);
         vidaText.text = vida.ToString();
 
-        if (derrota >= 6)
+        if (derrota >= numeroDerrota)
         {
             vida--;
             
@@ -69,6 +74,11 @@ public class GameController : MonoBehaviour {
         {
             streak = 0;
             vida++;
+        }
+
+        if (vida >= 5)
+        {
+            vida = maximoVida;
         }
     }
     //poner el scene manager ese arriba UwU 
