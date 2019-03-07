@@ -2,12 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
     Animator animacionInterface;
     public AudioSource audioSource;
     public bool pausa = false;
     public static int score;
+
+    static int puntuacion;
+    public Text puntuacionText;
+
+    public static int vida;
+    public Text vidaText;
+
+    public static int derrota;
+    Animator animDerrota;
+
+    public static int streak;
+    public Text streakText;
+
 
 
     private void Awake()
@@ -25,15 +39,69 @@ public class GameController : MonoBehaviour {
         //audioSource.Play();
         
         audioSource.Play();
+
+        animDerrota = GameObject.Find("Derrota").GetComponent<Animator>();
+        streak = 0;
+        derrota = 0;
+        vida = 3;
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
         //Debug.Log(Time.timeScale);
-	}
+        vidaText.text = vida.ToString();
+
+        if (derrota >= 6)
+        {
+            vida--;
+            
+            derrota = 0;
+        }
+
+        if (vida == 0)
+        {
+            Time.timeScale = 0;
+            animDerrota.SetBool("MenuDerrotaVisible", true);
+        }
+
+        if (streak == 3)
+        {
+            streak = 0;
+            vida++;
+        }
+    }
     //poner el scene manager ese arriba UwU 
+    public void ReinicioDerrota()
+    {
+        derrota = 0;
+
+    }
+
+    public void ReinicioStreak()
+    {
+        streak = 0;
+
+        derrota++;
+        streakText.text = streak.ToString();
+
+        
+    }
+
+    public void SumarDerrota()
+    {
+        derrota++;
+    }
+    public void SumaPuntos()
+    {
+        puntuacion++;
+        streak++;
+        puntuacionText.text = puntuacion.ToString();
+        streakText.text = streak.ToString();
+    }
+
    
+
     public void salirSelector()
     {
         SceneManager.LoadScene("SelectorNiveles");

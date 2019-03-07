@@ -6,16 +6,10 @@ using UnityEngine.UI;
 public class Botones : MonoBehaviour
 {
     public GameObject nota;
-    static int puntuacion;
-    public Text puntuacionText;
+    GameObject GameController;
     public ParticleSystem particle;
   
 
-    public static int derrota;
-    Animator animDerrota;
-
-    public static int streak;
-    public Text streakText;
 
 
     Animator animacionBoton;
@@ -24,9 +18,7 @@ public class Botones : MonoBehaviour
     private void Start()
     {
         animacionBoton = GetComponent<Animator>();
-        animDerrota = GameObject.Find("Derrota").GetComponent<Animator>();
-        streak = 0;
-        derrota = 0;
+        GameController = GameObject.Find("GameController");
     }
 
     
@@ -34,14 +26,7 @@ public class Botones : MonoBehaviour
     {
         if (Input.GetKeyDown(tecla))
         {
-            TeclaPulsada();
-            
-        }
-
-        if (derrota >= 6)
-        {
-            Time.timeScale = 0;
-            animDerrota.SetBool("MenuDerrotaVisible", true);
+            TeclaPulsada();      
         }
     }
 
@@ -53,11 +38,7 @@ public class Botones : MonoBehaviour
         
         nota.GetComponent<Animator>().SetTrigger("DestruirNota");
         nota = null;
-        puntuacion++;
-        streak++;
-        puntuacionText.text = puntuacion.ToString();
-        streakText.text = streak.ToString();
-
+        GameController.GetComponent<GameController>().SumaPuntos();
     }
 
     void OnTriggerEnter(Collider col)
@@ -94,28 +75,13 @@ public class Botones : MonoBehaviour
            // Debug.Log("Destruyenota");
             DestruyeNota();
             particle.Emit(1);
-            derrota = 0;
-            
+            GameController.GetComponent<GameController>().ReinicioDerrota();
+
         }
         else
         {
-            streak = 0;
-
-            derrota++;
-            streakText.text = streak.ToString();
+            GameController.GetComponent<GameController>().ReinicioStreak();
         }
     }
-
     
-
-   // void FuncionDerrota ()
-   // {
-       // derrota++;
-       
-  //  }
-
-    public void SumarDerrota()
-    {
-        derrota++;
-    } 
 }

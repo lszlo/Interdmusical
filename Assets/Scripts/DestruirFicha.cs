@@ -22,7 +22,7 @@ public class DestruirFicha : MonoBehaviour
         if (col.gameObject.tag == "Nota")
         {
             Destroy(col.gameObject);
-            Botones.streak = 0;
+            GameController.streak = 0;
             streakText.text = "0";
         }
             
