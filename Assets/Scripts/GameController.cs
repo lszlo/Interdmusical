@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour {
     private void Awake()
     {
         animacionInterface = GameObject.Find("UI").GetComponent<Animator>();
-        audioSource = GameObject.Find("AudioSource").GetComponent<AudioSource>();
+        audioSource = GameObject.Find("Audio Source").GetComponent<AudioSource>();
         if(audioSource == null)
         {
             Debug.LogError("No se encuentra AudioSource");
