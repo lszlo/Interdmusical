@@ -9,6 +9,7 @@ public class Botones : MonoBehaviour
     static int puntuacion;
     public Text puntuacionText;
     public ParticleSystem particle;
+  
 
     public static int derrota;
     Animator animDerrota;
@@ -49,7 +50,8 @@ public class Botones : MonoBehaviour
     void DestruyeNota()
     {
         
-        Destroy(nota);
+        
+        nota.GetComponent<Animator>().SetTrigger("DestruirNota");
         nota = null;
         puntuacion++;
         streak++;
