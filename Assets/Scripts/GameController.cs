@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour {
     void Start ()
     {
         //audioSource.Play();
-        Time.timeScale = 1f;
+        
         audioSource.Play();
     }
 	
