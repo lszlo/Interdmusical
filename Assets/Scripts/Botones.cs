@@ -49,7 +49,7 @@ public class Botones : MonoBehaviour
 
     void DestruyeNota()
     {
-        
+        //hola
         
         nota.GetComponent<Animator>().SetTrigger("DestruirNota");
         nota = null;
