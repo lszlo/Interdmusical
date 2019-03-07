@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -265,6 +265,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioSource
+      objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835644, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
       propertyPath: OutputAudioMixerGroup
@@ -276,11 +281,6 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 8832081a4440d724dbfec4899813c5b3, type: 3}
-    - target: {fileID: 2286608070134835645, guid: ed302ee1732977b41a3716d28d11e136,
-        type: 3}
-      propertyPath: m_Name
-      value: AudioSource
-      objectReference: {fileID: 0}
     - target: {fileID: 2286608070134835523, guid: ed302ee1732977b41a3716d28d11e136,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1987,6 +1987,16 @@ PrefabInstance:
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5305060142415833212, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2050046377}
+    - target: {fileID: 5305060142415833212, guid: 20a0ece1e9445864ca063ab996d951c5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: salirSelector
+      objectReference: {fileID: 0}
     - target: {fileID: 1061908998269672428, guid: 20a0ece1e9445864ca063ab996d951c5,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
@@ -2017,16 +2027,6 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 5305060142415833212, guid: 20a0ece1e9445864ca063ab996d951c5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2050046377}
-    - target: {fileID: 5305060142415833212, guid: 20a0ece1e9445864ca063ab996d951c5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: salirSelector
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20a0ece1e9445864ca063ab996d951c5, type: 3}
 --- !u!95 &1860621212 stripped
@@ -2035,6 +2035,18 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1860621211}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1860621213 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8887355296873295789, guid: 20a0ece1e9445864ca063ab996d951c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1860621211}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1896069497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2184,6 +2196,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2947550339654013373, guid: bd71c9037e2d861439c780e218f258d9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.4
+      objectReference: {fileID: 0}
     - target: {fileID: 2070905555910687411, guid: bd71c9037e2d861439c780e218f258d9,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -2193,11 +2210,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 3.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2947550339654013373, guid: bd71c9037e2d861439c780e218f258d9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd71c9037e2d861439c780e218f258d9, type: 3}
@@ -2335,6 +2347,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1332130253198525141, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: m_Name
+      value: GameController
+      objectReference: {fileID: 0}
     - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: numeroEscena
@@ -2350,16 +2367,21 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 158769160}
-    - target: {fileID: 3511473626937368345, guid: 8269b06947ca3274b9f690993c7de60a,
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: vidaText
+      value: 
+      objectReference: {fileID: 1860621213}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: puntuacionText
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1332130253198525141, guid: 8269b06947ca3274b9f690993c7de60a,
+      objectReference: {fileID: 119357895}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
-      propertyPath: m_Name
-      value: GameController
-      objectReference: {fileID: 0}
+      propertyPath: streakText
+      value: 
+      objectReference: {fileID: 196827880}
     - target: {fileID: 1332130253198525143, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2414,6 +2436,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3511473626937368345, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: puntuacionText
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8269b06947ca3274b9f690993c7de60a, type: 3}
