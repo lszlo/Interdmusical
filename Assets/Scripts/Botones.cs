@@ -58,7 +58,7 @@ public class Botones : MonoBehaviour
     }
     void OnMouseDown()
     {
-        Handheld.Vibrate();
+       // Handheld.Vibrate();
         TeclaPulsada();
         
     }

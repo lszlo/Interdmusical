@@ -47,9 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nota: {fileID: 0}
-  puntuacionText: {fileID: 0}
   particle: {fileID: 0}
-  streakText: {fileID: 0}
   tecla: w
 --- !u!136 &830572004936475267
 CapsuleCollider:
@@ -61,10 +59,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 5.484481
-  m_Height: 14.730045
+  m_Radius: 5.633484
+  m_Height: 18.527716
   m_Direction: 1
-  m_Center: {x: 0.8875575, y: 0.122003555, z: 1.1541338}
+  m_Center: {x: 1.03656, y: 2.0208387, z: 1.1541338}
 --- !u!95 &6896762094404798370
 Animator:
   serializedVersion: 3
@@ -165,9 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nota: {fileID: 0}
-  puntuacionText: {fileID: 0}
   particle: {fileID: 0}
-  streakText: {fileID: 0}
   tecla: r
 --- !u!136 &6237237404246029562
 CapsuleCollider:
@@ -179,10 +175,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 5.449587
-  m_Height: 14.426363
+  m_Radius: 6.045521
+  m_Height: 16.713736
   m_Direction: 1
-  m_Center: {x: 1.811491, y: 0.6513586, z: 0.5573168}
+  m_Center: {x: 2.407425, y: 1.7950449, z: 0.5573168}
 --- !u!95 &6374542258650225332
 Animator:
   serializedVersion: 3
@@ -249,9 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nota: {fileID: 0}
-  puntuacionText: {fileID: 0}
   particle: {fileID: 0}
-  streakText: {fileID: 0}
   tecla: e
 --- !u!136 &3514498326601590043
 CapsuleCollider:
@@ -263,10 +257,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 5.288824
-  m_Height: 14.163145
+  m_Radius: 6.0269914
+  m_Height: 16.522385
   m_Direction: 1
-  m_Center: {x: 0.89822483, y: 0.6513586, z: 0.47729683}
+  m_Center: {x: 1.6363921, y: 1.8309784, z: 0.47729683}
 --- !u!95 &3900518322977294298
 Animator:
   serializedVersion: 3
@@ -333,9 +327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nota: {fileID: 0}
-  puntuacionText: {fileID: 0}
   particle: {fileID: 0}
-  streakText: {fileID: 0}
   tecla: q
 --- !u!136 &408729157553839099
 CapsuleCollider:
@@ -347,10 +339,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 5.1478896
-  m_Height: 14.707937
+  m_Radius: 5.551877
+  m_Height: 17.225628
   m_Direction: 1
-  m_Center: {x: 1.5596008, y: 0.6513586, z: 0.50403833}
+  m_Center: {x: 1.9635878, y: 1.9102039, z: 0.50403833}
 --- !u!95 &6408765891621783113
 Animator:
   serializedVersion: 3
