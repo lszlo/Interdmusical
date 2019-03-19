@@ -7,20 +7,27 @@ using UnityEngine.UI;
 public class SelectorNiveles : MonoBehaviour
 {
 	
-
+    //numero de paneles
 	public int numPaneles = 7;
 	RectTransform rt;
+
+    //ancho de cada panel
 	public float ancho;
 	Vector3 posInicial;
 	Vector3 posDestino;
+    //panel donde estemos ubicados
 	public int panelActual = 1;
+    //velocidad de la transicion de movimiento de panel a panel
 	public float velocidad = 1;
     // Start is called before the first frame update
     void Start()
     {
+        //nombramos al componente que contiene la posición y tamaño del panel
 		rt = GetComponent<RectTransform> ();
-		posInicial = rt.localPosition;
 
+        //ubicación donde se empieza siempre que cargues el menú
+		posInicial = rt.localPosition;
+        //ubicación donde se va a mover el panel
 		posDestino = rt.localPosition;
 
 		
@@ -29,9 +36,10 @@ public class SelectorNiveles : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    //para que el panel guarde su ubicación actual
 		rt.localPosition = Vector3.Lerp (rt.localPosition, posDestino, velocidad);
     }
-
+    //función que hace avanzar los paneles de 1 en uno hacia delante
 	public void Siguiente(){
 		if (panelActual > numPaneles-1) {
 			panelActual = 1;
@@ -43,7 +51,7 @@ public class SelectorNiveles : MonoBehaviour
 		}
 	
 	}
-
+    //función que hace retroceder los paneles de 1 en uno hacia atras
 	public void Anterior(){
 		
 
@@ -58,7 +66,7 @@ public class SelectorNiveles : MonoBehaviour
 
 	}
 
-
+    //Aqui cargamos las escenas que queremos llamar en los botones
 	public void cargarDisco () {
 
 		SceneManager.LoadScene("AureaCarmina");
