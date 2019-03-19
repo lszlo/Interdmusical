@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3270827653355588382}
   - component: {fileID: 7671943144970008360}
-  - component: {fileID: 830572004936475267}
   - component: {fileID: 6896762094404798370}
+  - component: {fileID: 6101668126719578909}
   m_Layer: 0
   m_Name: BotonW
   m_TagString: Untagged
@@ -49,20 +49,6 @@ MonoBehaviour:
   nota: {fileID: 0}
   particle: {fileID: 0}
   tecla: w
---- !u!136 &830572004936475267
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 204043192642950438}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 5.633484
-  m_Height: 18.527716
-  m_Direction: 1
-  m_Center: {x: 1.03656, y: 2.0208387, z: 1.1541338}
 --- !u!95 &6896762094404798370
 Animator:
   serializedVersion: 3
@@ -82,6 +68,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6101668126719578909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204043192642950438}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 18.840488, y: 5.696148, z: 9.950949}
+  m_Center: {x: 5.7548847, y: -0.33543968, z: 0.636817}
 --- !u!1 &448817213103340096
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,8 +207,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8599952894802423494}
   - component: {fileID: 157606352758081104}
-  - component: {fileID: 3514498326601590043}
   - component: {fileID: 3900518322977294298}
+  - component: {fileID: 6184802618990238180}
   m_Layer: 0
   m_Name: BotonE
   m_TagString: Untagged
@@ -247,20 +246,6 @@ MonoBehaviour:
   nota: {fileID: 0}
   particle: {fileID: 0}
   tecla: e
---- !u!136 &3514498326601590043
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7025615983363399191}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 6.0269914
-  m_Height: 16.522385
-  m_Direction: 1
-  m_Center: {x: 1.6363921, y: 1.8309784, z: 0.47729683}
 --- !u!95 &3900518322977294298
 Animator:
   serializedVersion: 3
@@ -280,6 +265,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6184802618990238180
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7025615983363399191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 23.304413, y: 3.8242683, z: 9.775316}
+  m_Center: {x: 6.5899353, y: -1.4121342, z: 0.5034759}
 --- !u!1 &7957721837859199125
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,8 +288,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3572440920612769350}
   - component: {fileID: 2027623687909988207}
-  - component: {fileID: 408729157553839099}
   - component: {fileID: 6408765891621783113}
+  - component: {fileID: 1976305152051639022}
   m_Layer: 0
   m_Name: BotonQ
   m_TagString: Untagged
@@ -329,20 +327,6 @@ MonoBehaviour:
   nota: {fileID: 0}
   particle: {fileID: 0}
   tecla: q
---- !u!136 &408729157553839099
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7957721837859199125}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 5.551877
-  m_Height: 17.225628
-  m_Direction: 1
-  m_Center: {x: 1.9635878, y: 1.9102039, z: 0.50403833}
 --- !u!95 &6408765891621783113
 Animator:
   serializedVersion: 3
@@ -362,6 +346,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1976305152051639022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7957721837859199125}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.56654, y: 6.48485, z: 9.98283}
+  m_Center: {x: 5.948248, y: -0.13377666, z: 0.3805542}
 --- !u!1001 &301835411507581665
 PrefabInstance:
   m_ObjectHideFlags: 0
