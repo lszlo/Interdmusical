@@ -5,10 +5,15 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
+	 
+    public Text tiempoText;
+	public float time = 3;	
+	Animator animacionVictoria;
     Animator animacionInterface;
     public AudioSource audioSource;
     public bool pausa = false;
     public static int score;
+
 
     
     static int puntuacion;
@@ -46,6 +51,7 @@ public class GameController : MonoBehaviour {
         audioSource.Play();
         Time.timeScale = 1;
 
+		animacionVictoria = GameObject.Find("Victoria").GetComponent<Animator>();
         animDerrota = GameObject.Find("Derrota").GetComponent<Animator>();
         streak = 0;
         derrota = 0;
@@ -55,6 +61,10 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+	    time -= Time.deltaTime;
+		tiempoText.text =time.ToString("f0");
+			
+
         //Debug.Log(Time.timeScale);
         vidaText.text = vida.ToString();
 
@@ -81,8 +91,21 @@ public class GameController : MonoBehaviour {
         {
             vida = maximoVida;
         }
+
+        if (time <= 0f)
+        {
+            Time.timeScale = 0;
+            animacionVictoria.SetBool("VictoriaVisible", true);
+        }
+
+       // if (!audioSource.isPlaying)
+		//{
+			//Time.timeScale = 0;
+			//animacionVictoria.SetBool ("victoriaInVisible", true);
+		//}
     }
     //poner el scene manager ese arriba UwU 
+
     public void ReinicioDerrota()
     {
         derrota = 0;
