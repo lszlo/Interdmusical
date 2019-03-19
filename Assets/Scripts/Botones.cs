@@ -8,7 +8,7 @@ public class Botones : MonoBehaviour
     public GameObject nota;
     GameObject GameController;
     public ParticleSystem particle;
-  
+    
 
 
 
@@ -19,6 +19,7 @@ public class Botones : MonoBehaviour
     {
         animacionBoton = GetComponent<Animator>();
         GameController = GameObject.Find("GameController");
+        
     }
 
     
