@@ -91,10 +91,10 @@ public class GameController : MonoBehaviour {
             vida = maximoVida;
         }
 
-        if (time <= 0f)
+        if (time <= 0)
         {
             Time.timeScale = 0;
-            animacionVictoria.SetBool("AnimacionVisible", false);
+            animacionVictoria.SetBool("AnimacionVisible", true);
         }
     }
     //poner el scene manager ese arriba UwU 
