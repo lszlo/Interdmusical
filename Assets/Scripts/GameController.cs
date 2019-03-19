@@ -5,20 +5,26 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
+    //texto para el ver el tiempo
     public Text tiempoText;
+    //tiempo que tiene que transcurrir para acabar el nivel
     public float time = 10;
 
+    //llamo a la animación de la pantalla de victoria
     Animator animacionVictoria;
-
+    //llamo a la animación del menu opciones dentro del nivel
     Animator animacionInterface;
+    //hacemos publico el audio para añadirle una pista
     public AudioSource audioSource;
+    //parar el tiempo en estado apagado
     public bool pausa = false;
+    //numero de puntos
     public static int score;
 
-    
+    //numero de puntos
     static int puntuacion;
+ 
     public Text puntuacionText;
-
     public int numeroVida = 3;
     public int maximoVida = 5;
     public static int vida;
@@ -33,7 +39,7 @@ public class GameController : MonoBehaviour {
     public Text streakText;
 
 
-
+    //cuando inicia la escena empieza la cancion
     private void Awake()
     {
         animacionInterface = GameObject.Find("UI").GetComponent<Animator>();
@@ -61,12 +67,14 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+        //resta tiempo al contador
         time -= Time.deltaTime;
         tiempoText.text = time.ToString("f0");
 
         //Debug.Log(Time.timeScale);
         vidaText.text = vida.ToString();
 
+        //cuando derrota es mayor del numero seleccionado resta una vida y vuelve a establecerse en 0 para reiniciarse
         if (derrota >= numeroDerrota)
         {
             vida--;
@@ -74,30 +82,34 @@ public class GameController : MonoBehaviour {
             derrota = 0;
         }
 
+        //si vida es 0 el tiempo se para y aparece el menu de derrota
         if (vida == 0)
         {
             Time.timeScale = 0;
             animDerrota.SetBool("MenuDerrotaVisible", true);
         }
 
+        //cuando la racha de puntos alcanza un numero determinado la racha se pone en 0 y suma una vida
         if (streak == 3)
         {
             streak = 0;
             vida++;
         }
 
+        //la vida nunca puede subir de 5 o mas
         if (vida >= 5)
         {
             vida = maximoVida;
         }
 
+        //cuando el tiempo acaba se para el tiempo y aparece el menu de victoria
         if (time <= 0)
         {
             Time.timeScale = 0;
             animacionVictoria.SetBool("AnimacionVisible", true);
         }
     }
-    //poner el scene manager ese arriba UwU 
+    //el contador de derrota se reinicia en 0
     public void ReinicioDerrota()
     {
         derrota = 0;
@@ -105,6 +117,7 @@ public class GameController : MonoBehaviour {
 
     }
 
+    //el contador de racha se reinicia en 0 y suma 1 al contador de derrota
     public void ReinicioStreak()
     {
         streak = 0;
@@ -115,10 +128,12 @@ public class GameController : MonoBehaviour {
         
     }
 
+    //suma 1 al contador de derrota
     public void SumarDerrota()
     {
         derrota++;
     }
+    //suma 1 al contador de puntos y al contador de racha
     public void SumaPuntos()
     {
         puntuacion++;
@@ -133,6 +148,8 @@ public class GameController : MonoBehaviour {
     {
         SceneManager.LoadScene("MenuInicial");
     }
+
+    //para el tiempo para el menu opciones dentro del nivel cuando se sale vuelve el tiempo a la normalidad
     public void menuSalir()
     {
         pausa = !pausa;
@@ -162,6 +179,7 @@ public class GameController : MonoBehaviour {
         }
     }
 
+    //cargar las escenas para los botones
     public void RecargaUnbound()
     {
 
