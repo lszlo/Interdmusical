@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AudioSyncGenerador : AudioSyncer
 {
+    //codiigo para la generacion de notas al ritmo de la musica, funciona como todos los demas codigos que beben del audiosyncer
     public GameObject nota;
     public float fuerzaNota = 5f;
    

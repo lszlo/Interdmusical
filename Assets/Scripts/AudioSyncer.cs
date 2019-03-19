@@ -2,15 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Parent class responsible for extracting beats from..
-/// ..spectrum value given by AudioSpectrum.cs
-/// </summary>
+//clase que se encarga de sacar los beats
 public class AudioSyncer : MonoBehaviour {
 
-	/// <summary>
-	/// Inherit this to cause some behavior on each beat
-	/// </summary>
+	//Creas el onBeat que luego va a ser sobreesctiro en las funciones que beban de este script
 	public virtual void OnBeat()
 	{
 		//Debug.Log("beat");
@@ -18,11 +13,7 @@ public class AudioSyncer : MonoBehaviour {
 		m_isBeat = true;
 	}
 
-	/// <summary>
-	/// Inherit this to do whatever you want in Unity's update function
-	/// Typically, this is used to arrive at some rest state..
-	/// ..defined by the child class
-	/// </summary>
+	
 	public virtual void OnUpdate()
 	{ 
 		// update audio value
@@ -54,7 +45,7 @@ public class AudioSyncer : MonoBehaviour {
 	{
 		OnUpdate();
 	}
-
+    //Los valores que se cambiaran para que vaya a diferentes ritmos 
 	public float bias;
 	public float timeStep;
 	public float timeToBeat;
