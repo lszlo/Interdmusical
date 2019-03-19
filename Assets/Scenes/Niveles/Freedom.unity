@@ -1406,6 +1406,11 @@ PrefabInstance:
       propertyPath: tiempoText
       value: 
       objectReference: {fileID: 107682663}
+    - target: {fileID: 1332130253198525140, guid: 8269b06947ca3274b9f690993c7de60a,
+        type: 3}
+      propertyPath: time
+      value: 261
+      objectReference: {fileID: 0}
     - target: {fileID: 3511473626937368345, guid: 8269b06947ca3274b9f690993c7de60a,
         type: 3}
       propertyPath: puntuacionText
@@ -2379,6 +2384,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619361729118965542, guid: d244458d7d3cb69438c70f9c69028404,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 912469615}
+    - target: {fileID: 619361729118965542, guid: d244458d7d3cb69438c70f9c69028404,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RecargaFreedom
+      objectReference: {fileID: 0}
+    - target: {fileID: 619361731018512271, guid: d244458d7d3cb69438c70f9c69028404,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 912469615}
+    - target: {fileID: 619361731018512271, guid: d244458d7d3cb69438c70f9c69028404,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: salirSelector
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d244458d7d3cb69438c70f9c69028404, type: 3}
