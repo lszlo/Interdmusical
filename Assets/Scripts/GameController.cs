@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour {
     public Text tiempoText;
     public float time = 10;
 
+    Animator animacionVictoria;
+
     Animator animacionInterface;
     public AudioSource audioSource;
     public bool pausa = false;
@@ -49,6 +51,7 @@ public class GameController : MonoBehaviour {
         audioSource.Play();
         Time.timeScale = 1;
 
+        animacionVictoria = GameObject.Find("Victoria").GetComponent<Animator>();
         animDerrota = GameObject.Find("Derrota").GetComponent<Animator>();
         streak = 0;
         derrota = 0;
@@ -86,6 +89,12 @@ public class GameController : MonoBehaviour {
         if (vida >= 5)
         {
             vida = maximoVida;
+        }
+
+        if (time <= 0f)
+        {
+            Time.timeScale = 0;
+            animacionVictoria.SetBool("AnimacionVisible", false);
         }
     }
     //poner el scene manager ese arriba UwU 
