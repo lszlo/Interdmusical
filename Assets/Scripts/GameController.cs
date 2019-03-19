@@ -122,7 +122,7 @@ public class GameController : MonoBehaviour {
 
     public void salirSelector()
     {
-        SceneManager.LoadScene("SelectorNiveles");
+        SceneManager.LoadScene("MenuInicial");
     }
     public void menuSalir()
     {
