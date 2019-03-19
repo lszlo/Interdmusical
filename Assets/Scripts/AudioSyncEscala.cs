@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioSyncEscala : AudioSyncer
-{
+{//otro sript para modificar la escala reescribiendo el onbeat
     public Vector3 beatScale;
     public Vector3 restScale;
     public override void OnBeat()
@@ -16,7 +16,7 @@ public class AudioSyncEscala : AudioSyncer
 
     }
    
-   
+   //coge unos valores iniciales y unos finales para hacer la escala
     private IEnumerator MoveToScale(Vector3 _target)
     {
         Vector3 _curr = transform.localScale;

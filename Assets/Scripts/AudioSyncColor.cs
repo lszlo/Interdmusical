@@ -6,6 +6,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class AudioSyncColor : AudioSyncer {
 
+    //Codigo para cambiar el color de las luces, va con audiosyncer
+    //Aqui pilla  
 	private IEnumerator MoveToColor(Color _target)
 	{
 		Color _curr = m_img.color;
