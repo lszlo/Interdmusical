@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
+    public Text tiempoText;
+    public float time = 10;
+
     Animator animacionInterface;
     public AudioSource audioSource;
     public bool pausa = false;
@@ -55,6 +58,9 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+        time -= Time.deltaTime;
+        tiempoText.text = time.ToString("f0");
+
         //Debug.Log(Time.timeScale);
         vidaText.text = vida.ToString();
 

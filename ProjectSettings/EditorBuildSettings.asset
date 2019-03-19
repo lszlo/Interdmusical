@@ -14,9 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Niveles/MountainKing.unity
     guid: 33faf0a58d3432544945e0f284857e8f
-  - enabled: 1
-    path: Assets/Scenes/Niveles/TheThrill.unity
-    guid: 95303cc1f6bde97498e42dfada0a1eb5
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Niveles/TheVoyage.unity
     guid: be187ed5e67a34a4c80e0ce536e627fd
